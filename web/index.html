@@ -258,7 +258,10 @@
                     <div class="tab-pane fade" id="pane-intel" role="tabpanel">
                         <div class="glass-card p-4">
                             <div class="d-flex justify-content-between align-items-center mb-3">
-                                <h5 class="fw-bold m-0"><i class="fa-solid fa-list-check me-2 text-primary"></i>Deal Registry & Prediction Matrix</h5>
+                                <h5 class="fw-bold m-0 d-flex align-items-center">
+                                    <span><i class="fa-solid fa-list-check me-2 text-primary"></i>Deal Registry & Prediction Matrix</span>
+                                    <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="registry-matrix" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                                </h5>
                                 <div class="d-flex gap-2">
                                     <button class="btn btn-sm btn-outline-secondary" id="exportCsv"><i class="fa-solid fa-file-csv me-1"></i>Export CSV</button>
                                 </div>
@@ -272,14 +275,20 @@
                         <div class="dashboard-grid">
                             <div class="glass-card chart-card-full">
                                 <div class="chart-title">
-                                    <span>Risk Matrix (Bubble Chart)</span>
+                                    <div class="d-flex align-items-center">
+                                        <span>Risk Matrix (Bubble Chart)</span>
+                                        <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="risk-matrix-bubble" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                                    </div>
                                     <small class="text-muted">X: Win Prob | Y: Deal Value | Size: Risk Score</small>
                                 </div>
                                 <div class="chart-container" id="chart-risk-matrix" style="height: 400px;"></div>
                             </div>
                             
                             <div class="glass-card chart-card-full p-4">
-                                <h6 class="fw-bold mb-3"><i class="fa-solid fa-triangle-exclamation me-2 text-danger"></i>Top 50 High-Risk Deals & Stuck Opportunities</h6>
+                                <h6 class="fw-bold mb-3 d-flex align-items-center">
+                                    <span><i class="fa-solid fa-triangle-exclamation me-2 text-danger"></i>Top 50 High-Risk Deals & Stuck Opportunities</span>
+                                    <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="risk-grid-high" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                                </h6>
                                 <div id="riskGrid" class="ag-theme-alpine-dark" style="height: 400px; width: 100%;"></div>
                             </div>
                         </div>
@@ -290,7 +299,10 @@
                         <div class="row">
                             <div class="col-md-5">
                                 <div class="glass-card p-4">
-                                    <h5 class="fw-bold mb-4"><i class="fa-solid fa-gamepad text-primary me-2"></i>Scenario Controllers</h5>
+                                    <h5 class="fw-bold mb-4 d-flex align-items-center">
+                                        <span><i class="fa-solid fa-gamepad text-primary me-2"></i>Scenario Controllers</span>
+                                        <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="sim-controllers" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                                    </h5>
                                     
                                     <!-- Slider 1 -->
                                     <div class="mb-4">
@@ -326,7 +338,10 @@
                             
                             <div class="col-md-7">
                                 <div class="glass-card p-4">
-                                    <h5 class="fw-bold mb-3"><i class="fa-solid fa-chart-gantt text-success me-2"></i>Simulated Scenario Revenue</h5>
+                                    <h5 class="fw-bold mb-3 d-flex align-items-center">
+                                        <span><i class="fa-solid fa-chart-gantt text-success me-2"></i>Simulated Scenario Revenue</span>
+                                        <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="sim-chart-outcome" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                                    </h5>
                                     <div class="chart-container" id="chart-sim-outcome" style="height: 380px;"></div>
                                 </div>
                             </div>
@@ -337,19 +352,39 @@
                     <div class="tab-pane fade" id="pane-perf" role="tabpanel">
                         <div class="dashboard-grid">
                             <div class="glass-card chart-card-half">
-                                <div class="chart-title">ROC Validation Curve</div>
+                                <div class="chart-title d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <span>ROC Validation Curve</span>
+                                        <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="perf-roc-curve" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                                    </div>
+                                </div>
                                 <div class="chart-container" id="chart-roc"></div>
                             </div>
                             <div class="glass-card chart-card-half">
-                                <div class="chart-title">Confusion Matrix</div>
+                                <div class="chart-title d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <span>Confusion Matrix</span>
+                                        <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="perf-confusion" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                                    </div>
+                                </div>
                                 <div class="chart-container" id="chart-confusion"></div>
                             </div>
                             <div class="glass-card chart-card-half">
-                                <div class="chart-title">Feature Importance</div>
+                                <div class="chart-title d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <span>Feature Importance</span>
+                                        <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="perf-importance" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                                    </div>
+                                </div>
                                 <div class="chart-container" id="chart-importance"></div>
                             </div>
                             <div class="glass-card chart-card-half">
-                                <div class="chart-title">SHAP Global Summary</div>
+                                <div class="chart-title d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <span>SHAP Global Summary</span>
+                                        <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="perf-shap-summary" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                                    </div>
+                                </div>
                                 <div class="chart-container" id="chart-shap-summary"></div>
                             </div>
                         </div>
@@ -359,15 +394,30 @@
                     <div class="tab-pane fade" id="pane-movement" role="tabpanel">
                         <div class="dashboard-grid">
                             <div class="glass-card chart-card-full">
-                                <div class="chart-title">Sankey Pipeline Stage Flow</div>
+                                <div class="chart-title d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <span>Sankey Pipeline Stage Flow</span>
+                                        <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="flow-sankey" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                                    </div>
+                                </div>
                                 <div class="chart-container" id="chart-sankey" style="height: 450px;"></div>
                             </div>
                             <div class="glass-card chart-card-half">
-                                <div class="chart-title">Stage Velocity (Days in Stage)</div>
+                                <div class="chart-title d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <span>Stage Velocity (Days in Stage)</span>
+                                        <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="flow-velocity" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                                    </div>
+                                </div>
                                 <div class="chart-container" id="chart-stage-velocity"></div>
                             </div>
                             <div class="glass-card chart-card-half">
-                                <div class="chart-title">Slippage History Tracker</div>
+                                <div class="chart-title d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <span>Slippage History Tracker</span>
+                                        <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="flow-slippage" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                                    </div>
+                                </div>
                                 <div class="chart-container" id="chart-slippage-tracker"></div>
                             </div>
                         </div>
@@ -449,7 +499,10 @@
                             <!-- Folds Splits Visualization -->
                             <div class="col-lg-6 mb-4">
                                 <div class="glass-card p-4 h-100">
-                                    <h5 class="fw-bold mb-3"><i class="fa-solid fa-calendar-days me-2 text-primary"></i>Chronological Validation Strategy</h5>
+                                    <h5 class="fw-bold mb-3 d-flex align-items-center">
+                                        <span><i class="fa-solid fa-calendar-days me-2 text-primary"></i>Chronological Validation Strategy</span>
+                                        <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="method-splits" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                                    </h5>
                                     <p class="text-secondary small">
                                         Unlike standard K-Fold cross-validation (which suffers from temporal leakage), we implement chronological walk-forward folds to align with real-world forecasting cycles.
                                     </p>
@@ -509,7 +562,10 @@
                             <!-- Model Comparison Grid Table -->
                             <div class="col-lg-6 mb-4">
                                 <div class="glass-card p-4 h-100">
-                                    <h5 class="fw-bold mb-3"><i class="fa-solid fa-list-ol me-2 text-primary"></i>Model Performance Comparison</h5>
+                                    <h5 class="fw-bold mb-3 d-flex align-items-center">
+                                        <span><i class="fa-solid fa-list-ol me-2 text-primary"></i>Model Performance Comparison</span>
+                                        <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="method-comparison" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                                    </h5>
                                     <p class="text-secondary small">
                                         The multi-class target predicts opportunity outcomes (<strong>Won, Lost, or Abandoned</strong>). Models were trained on the identical features across successive validation windows.
                                     </p>
@@ -570,7 +626,10 @@
 
                         <!-- 3. Key Mathematical Framework and SHAP explanation -->
                         <div class="glass-card p-4">
-                            <h5 class="fw-bold mb-3"><i class="fa-solid fa-chart-line me-2 text-primary"></i>Explainability Framework (SHAP Values)</h5>
+                            <h5 class="fw-bold mb-3 d-flex align-items-center">
+                                <span><i class="fa-solid fa-chart-line me-2 text-primary"></i>Explainability Framework (SHAP Values)</span>
+                                <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="method-explainability" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                            </h5>
                             <div class="row">
                                 <div class="col-md-7">
                                     <p class="text-secondary small">

@@ -462,6 +462,96 @@ function setupEventListeners() {
             meaning: 'The Risk Level filter segments the opportunity pipeline into risk categories based on their AI-calculated Risk Scores (0-100).',
             understand: '• All: Displays all opportunities.\n• Med: Opportunities with Risk Score between 40 and 69.\n• High: Opportunities with Risk Score >= 70 (high risk of failing or slipping).',
             use: 'Click "High" to instantly focus on the most vulnerable opportunities, enabling sales managers to initiate intervention protocols and save deals in jeopardy.'
+        },
+        'registry-matrix': {
+            title: 'Deal Registry & Prediction Matrix',
+            meaning: 'This interactive data grid lists all active, open opportunities within the pipeline, integrating CRM data points with machine learning predictions like Win Probability, Loss Probability, and Risk Score.',
+            understand: 'Each row represents an active deal. Key columns include:\n• Win Prob: XGBoost probability of winning (higher is better).\n• Loss Prob: XGBoost probability of losing.\n• Risk Score: Dynamic score (0-100) reflecting deal vulnerability.\n• Drivers: Summary of positive (+) and negative (-) SHAP factors.',
+            use: 'Click any row to open the Opportunity Details panel for local SHAP explainability drivers, age, and historical timeline. Use the search bar to locate specific clients, and click the Export CSV button to download the filtered dataset.'
+        },
+        'risk-matrix-bubble': {
+            title: 'Risk Matrix (Bubble Chart)',
+            meaning: 'This multi-dimensional visualization displays open opportunities as bubbles to analyze the relationship between Deal Value, AI Win Probability, and Risk Score.',
+            understand: '• X-Axis: Win Probability (0% to 100%).\n• Y-Axis: Deal Value (unweighted amount in USD).\n• Bubble Size: Represents the Risk Score (larger bubbles indicate high vulnerability).\n• Bubble Color: Indicates Risk Category (Red = High Risk, Yellow = Med Risk, Green = Low Risk).',
+            use: 'Look for large red bubbles in the upper-left quadrant (high value, low win probability, high risk). Hover over bubbles to see deal ID and details. Clicking a bubble filters the Deal Registry table below.'
+        },
+        'risk-grid-high': {
+            title: 'Top 50 High-Risk & Stuck Opportunities',
+            meaning: 'This specialized list extracts the top 50 most vulnerable active deals, prioritized by their Risk Score (70+) and velocity bottlenecks (days stuck in stage).',
+            understand: 'Deals displayed here have low win probabilities, elevated loss/abandonment rates, and high stage ages. These are opportunities that are highly likely to leak or stall indefinitely.',
+            use: 'Use this list during weekly pipeline reviews. Sales managers should inspect these 50 deals first, identify the negative SHAP drivers (e.g. pushed close dates, zero activity), and coordinate salvage plans.'
+        },
+        'sim-controllers': {
+            title: 'Scenario Controllers',
+            meaning: 'This interactive control panel allows sales leadership to adjust key sales variables (Win Rate, Deal Size, Cycle Time) to simulate their impact on forecasted revenue.',
+            understand: '• Win Rate Multiplier: Scale predicted win probabilities (e.g., 1.10x represents a 10% improvement in sales execution).\n• Avg Deal Size Multiplier: Scale overall deal values.\n• Close Date Shift: Accelerate or delay closing timelines by 1 to 3 months.',
+            use: 'Slide the controls to reflect different strategic assumptions. For instance, set Win Rate to 1.15x to simulate a successful training program, and observe how the forecast line shifts in response.'
+        },
+        'sim-chart-outcome': {
+            title: 'Simulated Scenario Revenue Chart',
+            meaning: 'This trend line visualization compares the baseline predicted revenue against a custom simulated forecast driven by user-adjusted Scenario Controllers.',
+            understand: '• White/Solid Line: Baseline expected revenue (standard XGBoost predictions).\n• Purple/Dashed Line: Simulated revenue (weighted using the active multiplier scenarios).\n• Shaded Area: Gap or gain relative to target baseline.',
+            use: 'Evaluate the feasibility of recovery plans. If a division is pacing $5M behind quota, adjust the multipliers to see what level of win-rate increase or deal-size growth is required to bridge the gap.'
+        },
+        'perf-roc-curve': {
+            title: 'ROC Validation Curve',
+            meaning: 'The Receiver Operating Characteristic (ROC) curve measures the diagnostic ability of our classification model across all possible decision thresholds.',
+            understand: '• X-Axis: False Positive Rate (1 - Specificity).\n• Y-Axis: True Positive Rate (Sensitivity).\n• Area Under Curve (AUC): Ranges from 0.5 (random guess) to 1.0 (perfect model). Our final champion model achieves an AUC of 0.8372, demonstrating highly robust separation.',
+            use: 'This chart validates model reliability. A high AUC (>0.80) ensures that the probability scores are highly discriminative, justifying their use in automated workflows and forecasts.'
+        },
+        'perf-confusion': {
+            title: 'Confusion Matrix',
+            meaning: 'This matrix details the classification accuracy of the model by comparing actual historical outcomes (Won vs. Lost vs. Abandoned) against model predictions.',
+            understand: '• Rows: Actual Outcomes.\n• Columns: Predicted Outcomes.\n• Diagonal Cells: True Positives (correctly classified deals).\n• Off-diagonal Cells: Misclassifications. High diagonal percentages indicate precise model predictions.',
+            use: 'Assess model bias. For example, check if the model is over-predicting wins (False Positives) or losses (False Negatives), allowing data scientists to tune the classification threshold accordingly.'
+        },
+        'perf-importance': {
+            title: 'Feature Importance',
+            meaning: 'This chart displays the global feature importance weights, showing which opportunity variables have the greatest impact on the model\'s predictions.',
+            understand: 'The longer the bar, the more influence that feature has on the final prediction. Client Win Rate and Stage Velocity (days stuck in current stage) are the primary drivers in our model.',
+            use: 'Align sales processes with predictive signals. If \'Days stuck in current stage\' is a top driver, sales leaders should establish strict alerts for deals that exceed the normal stage age limit.'
+        },
+        'perf-shap-summary': {
+            title: 'SHAP Global Summary',
+            meaning: 'This plot combines feature importance with feature effects, illustrating how high or low values of a feature push predictions towards Won (+) or Lost (-).',
+            understand: '• Y-Axis: Features ranked by overall impact.\n• X-Axis: SHAP value (positive increases win prob, negative decreases it).\n• Color: Red represents high feature values, Blue represents low feature values. For example, high client win rate (red) pushes predictions to the right (positive impact).',
+            use: 'Understand the direction and magnitude of feature impacts. Use these global insights to train sales reps on what behaviors (e.g. keeping close dates stable) maximize win probabilities.'
+        },
+        'flow-sankey': {
+            title: 'Sankey Pipeline Stage Flow',
+            meaning: 'This flow diagram visualizes the movement of opportunities from their starting stages at the beginning of the year to their final end-of-year outcomes.',
+            understand: '• Left Nodes: Starting stages of opportunities.\n• Right Nodes: Closed-won, Closed-lost, Abandoned, or remaining Active states.\n• Link Widths: Proportion of opportunities transitioning between those states.',
+            use: 'Identify stage leakage. If a thick band flows from Stage 3 (Develop) directly to Closed-lost or Abandoned, it indicates a critical drop-off point that needs process investigation.'
+        },
+        'flow-velocity': {
+            title: 'Stage Velocity',
+            meaning: 'This chart calculates the average number of days opportunities spend in each progressive sales stage before moving forward or closing.',
+            understand: '• Y-Axis: Sales stages (Identify, Qualify, Develop, Negotiate).\n• X-Axis: Average duration in days. Longer bars indicate slower stages where opportunities stall.',
+            use: 'Find workflow bottlenecks. If deals spend an average of 90 days in \'Develop Opp\' compared to 15 days in \'Negotiate\', focus enablement resources on qualifying and developing early-stage deals faster.'
+        },
+        'flow-slippage': {
+            title: 'Slippage History Tracker',
+            meaning: 'This tracker monitors close date slippage, showing how many times expected close dates were pushed back and how that affects close rates.',
+            understand: 'Opportunities are grouped by the number of times their Close Date has slipped (0, 1, 2, or 3+ times). The chart compares historical win rates across these slippage buckets.',
+            use: 'Enforce forecast discipline. Since opportunities that slip 3+ times have a historical win rate of under 15%, treat any deal with multiple date changes as extremely high-risk, regardless of the rep\'s confidence.'
+        },
+        'method-splits': {
+            title: 'Chronological Validation Strategy',
+            meaning: 'This section displays our walk-forward cross-validation splits used to train and validate the predictive models without temporal leakage.',
+            understand: 'Instead of shuffling snapshots randomly across time (which leaks future data into the past), we train on historical windows and test on subsequent blocks: Iteration 1 (Months 1-12 to 13-18), Iteration 2 (Months 1-24 to 25-30), Iteration 3 (Months 1-30 to 31-36).',
+            use: 'Provides transparency into the validation structure. This confirms that the model\'s reported accuracy is evaluated on realistic, unseen out-of-sample future datasets.'
+        },
+        'method-comparison': {
+            title: 'Model Performance Comparison',
+            meaning: 'This table compares the performance metrics of five candidate machine learning algorithms evaluated on our walk-forward test folds.',
+            understand: 'Algorithms (XGBoost, LightGBM, CatBoost, Random Forest, Logistic Regression) are evaluated on ROC AUC (discrimination), F1-Score (balance), and Log Loss (confidence). XGBoost was selected as the champion with an AUC of 0.8372.',
+            use: 'Gives the technical and business stakeholders visibility into the model selection process, proving that the selected algorithm is statistically superior to simpler baseline classifiers.'
+        },
+        'method-explainability': {
+            title: 'Explainability Framework (SHAP)',
+            meaning: 'This section details the SHAP (SHapley Additive exPlanations) framework used to translate complex machine learning calculations into clear human explanations.',
+            understand: 'SHAP calculates the contribution of each individual feature to a deal\'s win probability, showing exactly which positive (+) and negative (-) factors drove the prediction away from the baseline average.',
+            use: 'Bridges the trust gap for end users. Instead of treating the AI as a black box, sales reps can see the precise mathematical drivers (like client win history or slippage counts) behind every score.'
         }
     };
 
