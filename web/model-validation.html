@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Validation & Walk-Forward Testing</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    
+    <!-- AG Grid CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/ag-grid-community@31.3.2/styles/ag-grid.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/ag-grid-community@31.3.2/styles/ag-theme-alpine.css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Page Specific Styles -->
+    <style>
+        /* Light Theme Overrides for AG Grid validation */
+        [data-theme="light"] .ag-theme-alpine {
+            --ag-header-background-color: #f1f5f9;
+            --ag-header-foreground-color: #0f172a;
+            --ag-row-hover-color: #f8fafc;
+            --ag-border-color: #e2e8f0;
+            --ag-background-color: #ffffff;
+            --ag-data-color: #0f172a;
+        }
+        
+        .kpi-card {
+            border-left: 4px solid var(--kpi-color) !important;
+            position: relative;
+            overflow: hidden;
+            animation: fadeInUp 0.5s ease forwards;
+            opacity: 0;
+            transform: translateY(10px);
+        }
+
+        .kpi-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(var(--primary-rgb), 0.05) 0%, transparent 100%);
+            pointer-events: none;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .leaderboard-row {
+            transition: all 0.25s ease;
+        }
+        .leaderboard-row:hover {
+            transform: translateX(5px);
+            background: rgba(var(--primary-rgb), 0.05) !important;
+        }
+
+        .rank-badge {
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-weight: 700;
+        }
+        .rank-gold {
+            background: linear-gradient(135deg, #fbbf24, #d97706);
+            color: #ffffff;
+            box-shadow: 0 0 10px rgba(251, 191, 36, 0.4);
+        }
+        .rank-silver {
+            background: linear-gradient(135deg, #cbd5e1, #64748b);
+            color: #ffffff;
+            box-shadow: 0 0 10px rgba(203, 213, 225, 0.4);
+        }
+        .rank-bronze {
+            background: linear-gradient(135deg, #b45309, #78350f);
+            color: #ffffff;
+            box-shadow: 0 0 10px rgba(180, 83, 9, 0.4);
+        }
+        .rank-other {
+            background: rgba(var(--primary-rgb), 0.1);
+            color: var(--text-primary);
+        }
+
+        /* Drift Status Indicator */
+        .drift-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .status-green { background-color: var(--success); box-shadow: 0 0 8px var(--success); }
+        .status-yellow { background-color: var(--warning); box-shadow: 0 0 8px var(--warning); }
+        .status-red { background-color: var(--danger); box-shadow: 0 0 8px var(--danger); }
+
+        /* Calibration curve layout */
+        .calibration-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+        @media(max-width: 991px) {
+            .calibration-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .filter-pill {
+            background: rgba(var(--primary-rgb), 0.05);
+            border: 1px solid var(--border-card);
+            border-radius: 20px;
+            padding: 4px 12px;
+            font-size: 13px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .filter-pill.active {
+            background: var(--primary);
+            color: #ffffff;
+            border-color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-expand-lg border-bottom border-card py-3 glass-card sticky-top" style="border-radius: 0; background: var(--sidebar-bg);">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <i class="fa-solid fa-brain-circuit me-2 fs-4" style="color: var(--primary);"></i>
+                <span>GreyChain Opportunity Intelligence</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <!-- Navigation Tabs/Links -->
+                <ul class="navbar-nav mx-auto nav-pills">
+                    <li class="nav-item">
+                        <a href="index.html#pane-exec" class="nav-link">Command Center</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#pane-intel" class="nav-link">Deal Intelligence</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#pane-risk" class="nav-link">At Risk Deals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#pane-simulator" class="nav-link">Revenue Simulator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#pane-perf" class="nav-link">Model Performance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#pane-movement" class="nav-link">Pipeline Flow</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#pane-methodology" class="nav-link">Model Methodology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Model Validation</a>
+                    </li>
+                </ul>
+                
+                <!-- Dark/Light Theme Switcher & Full Screen -->
+                <div class="d-flex align-items-center gap-3">
+                    <button class="btn btn-link nav-link p-0" id="themeToggle" title="Toggle Theme">
+                        <i class="fa-solid fa-sun fs-5"></i>
+                    </button>
+                    <button class="btn btn-link nav-link p-0" id="fullscreenToggle" title="Full Screen">
+                        <i class="fa-solid fa-expand fs-5"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container-fluid px-4 py-4">
+        
+        <!-- HEADER TITLE SECTION -->
+        <div class="d-flex justify-content-between align-items-start flex-wrap gap-3 mb-4 border-bottom border-card pb-3">
+            <div>
+                <h1 class="fw-bold m-0 text-gradient" style="font-size: 28px;">Model Validation & Walk-Forward Testing</h1>
+                <p class="text-secondary m-0 mt-1">Evaluate forecasting model performance across all validation iterations.</p>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+                <div class="form-check form-switch me-2">
+                    <input class="form-check-input" type="checkbox" role="switch" id="autoRefreshToggle">
+                    <label class="form-check-label small text-secondary" for="autoRefreshToggle">Auto Refresh (30s)</label>
+                </div>
+                <button class="btn btn-sm btn-outline-secondary" id="refreshBtn" title="Refresh Datasets">
+                    <i class="fa-solid fa-arrows-rotate me-1"></i>Refresh Data
+                </button>
+                <div class="dropdown">
+                    <button class="btn btn-sm btn-primary dropdown-toggle" type="button" id="exportDashboardDropdown" data-bs-toggle="dropdown">
+                        <i class="fa-solid fa-download me-1"></i>Export Page
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end bg-dark border-card">
+                        <li><a class="dropdown-item text-primary" href="#" id="exportPNG"><i class="fa-solid fa-image me-2"></i>Export as PNG Image</a></li>
+                        <li><a class="dropdown-item text-primary" href="#" id="exportPDF"><i class="fa-solid fa-file-pdf me-2"></i>Export as PDF Report</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- GLOBAL FILTERS PANEL -->
+        <div class="glass-card p-3 mb-4">
+            <div class="row g-3 align-items-end">
+                
+                <!-- Iteration Selector -->
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <label class="form-label small fw-bold text-secondary">Validation Iteration</label>
+                    <select class="form-select bg-transparent border-card text-primary" id="filterIteration">
+                        <option value="ALL">All Iterations</option>
+                        <option value="Iteration 1">Iteration 1 (m1-12 to m13-18)</option>
+                        <option value="Iteration 2">Iteration 2 (m1-24 to m25-30)</option>
+                        <option value="Iteration 3">Iteration 3 (m1-30 to m31-36)</option>
+                    </select>
+                </div>
+
+                <!-- Model Selector -->
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <label class="form-label small fw-bold text-secondary">Algorithm Model</label>
+                    <select class="form-select bg-transparent border-card text-primary" id="filterModel">
+                        <option value="ALL">All Models</option>
+                        <option value="XGBoost">XGBoost (Champion)</option>
+                        <option value="CatBoost">CatBoost</option>
+                        <option value="LightGBM">LightGBM</option>
+                        <option value="Random Forest">Random Forest</option>
+                        <option value="Logistic Regression">Logistic Regression</option>
+                    </select>
+                </div>
+
+                <!-- Region Filter -->
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <label class="form-label small fw-bold text-secondary">Geographic Region</label>
+                    <select class="form-select bg-transparent border-card text-primary" id="filterRegion">
+                        <option value="ALL">All Regions</option>
+                    </select>
+                </div>
+
+                <!-- Business Unit Filter -->
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <label class="form-label small fw-bold text-secondary">Business Unit</label>
+                    <select class="form-select bg-transparent border-card text-primary" id="filterBU">
+                        <option value="ALL">All Business Units</option>
+                    </select>
+                </div>
+
+                <!-- Date Range Filter -->
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <label class="form-label small fw-bold text-secondary">Date Range (Start - End)</label>
+                    <div class="input-group">
+                        <input type="date" class="form-control bg-transparent border-card text-primary" id="filterStartDate" value="2022-06-01">
+                        <span class="input-group-text bg-transparent border-card text-secondary">-</span>
+                        <input type="date" class="form-control bg-transparent border-card text-primary" id="filterEndDate" value="2026-05-08">
+                    </div>
+                </div>
+
+                <div class="col-lg-1 col-md-2 col-sm-12 text-end">
+                    <button class="btn btn-sm btn-outline-secondary w-100 py-2" id="resetFiltersBtn">Reset</button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- SECTION 12: EXECUTIVE SUMMARY PANEL -->
+        <div class="glass-card p-4 mb-4" style="border-left: 5px solid var(--primary);">
+            <h5 class="fw-bold mb-2 text-primary"><i class="fa-solid fa-feather-pointed me-2"></i>Executive Summary & Insights</h5>
+            <p class="m-0 text-secondary lead" id="dynamicExecutiveSummary" style="font-size: 15px; line-height: 1.6;"></p>
+        </div>
+
+        <!-- SECTION 1: VALIDATION KPI SUMMARY -->
+        <div class="row g-3 mb-4" id="kpiCardGrid">
+            
+            <!-- Best Model -->
+            <div class="col">
+                <div class="glass-card kpi-card p-3 h-100" style="--kpi-color: var(--primary); animation-delay: 0.05s;">
+                    <div class="text-muted small fw-bold mb-1">Best Model</div>
+                    <div class="fs-4 fw-bold text-primary" id="kpi-best-model">XGBoost</div>
+                    <div class="small text-secondary mt-1">Validated Champion</div>
+                </div>
+            </div>
+            
+            <!-- ROC-AUC -->
+            <div class="col">
+                <div class="glass-card kpi-card p-3 h-100" style="--kpi-color: var(--success); animation-delay: 0.1s;">
+                    <div class="text-muted small fw-bold mb-1">ROC-AUC</div>
+                    <div class="fs-4 fw-bold text-success" id="kpi-roc-auc">0.8372</div>
+                    <div class="small text-secondary mt-1">Outcome Separation</div>
+                </div>
+            </div>
+
+            <!-- F1 Score -->
+            <div class="col">
+                <div class="glass-card kpi-card p-3 h-100" style="--kpi-color: var(--success); animation-delay: 0.15s;">
+                    <div class="text-muted small fw-bold mb-1">F1 Score</div>
+                    <div class="fs-4 fw-bold text-success" id="kpi-f1">0.5682</div>
+                    <div class="small text-secondary mt-1">Multi-Class Balanced</div>
+                </div>
+            </div>
+
+            <!-- Precision -->
+            <div class="col">
+                <div class="glass-card kpi-card p-3 h-100" style="--kpi-color: var(--success); animation-delay: 0.2s;">
+                    <div class="text-muted small fw-bold mb-1">Precision</div>
+                    <div class="fs-4 fw-bold text-success" id="kpi-precision">0.5824</div>
+                    <div class="small text-secondary mt-1">Positive Predictions</div>
+                </div>
+            </div>
+
+            <!-- Recall -->
+            <div class="col">
+                <div class="glass-card kpi-card p-3 h-100" style="--kpi-color: var(--success); animation-delay: 0.25s;">
+                    <div class="text-muted small fw-bold mb-1">Recall</div>
+                    <div class="fs-4 fw-bold text-success" id="kpi-recall">0.5546</div>
+                    <div class="small text-secondary mt-1">True Win Coverage</div>
+                </div>
+            </div>
+
+            <!-- Log Loss -->
+            <div class="col">
+                <div class="glass-card kpi-card p-3 h-100" style="--kpi-color: var(--warning); animation-delay: 0.3s;">
+                    <div class="text-muted small fw-bold mb-1">Log Loss</div>
+                    <div class="fs-4 fw-bold text-warning" id="kpi-log-loss">0.4820</div>
+                    <div class="small text-secondary mt-1">Entropy Penalty</div>
+                </div>
+            </div>
+
+            <!-- MAE -->
+            <div class="col">
+                <div class="glass-card kpi-card p-3 h-100" style="--kpi-color: var(--warning); animation-delay: 0.35s;">
+                    <div class="text-muted small fw-bold mb-1">MAE</div>
+                    <div class="fs-4 fw-bold text-warning" id="kpi-mae">0.155</div>
+                    <div class="small text-secondary mt-1">Abs Prob Error</div>
+                </div>
+            </div>
+
+            <!-- RMSE -->
+            <div class="col">
+                <div class="glass-card kpi-card p-3 h-100" style="--kpi-color: var(--warning); animation-delay: 0.4s;">
+                    <div class="text-muted small fw-bold mb-1">RMSE</div>
+                    <div class="fs-4 fw-bold text-warning" id="kpi-rmse">0.252</div>
+                    <div class="small text-secondary mt-1">Std Prob Error</div>
+                </div>
+            </div>
+
+            <!-- Win Prediction Accuracy -->
+            <div class="col">
+                <div class="glass-card kpi-card p-3 h-100" style="--kpi-color: var(--success); animation-delay: 0.45s;">
+                    <div class="text-muted small fw-bold mb-1">Win Acc</div>
+                    <div class="fs-4 fw-bold text-success" id="kpi-win-acc">85.2%</div>
+                    <div class="small text-secondary mt-1">Won vs Non-Won</div>
+                </div>
+            </div>
+
+            <!-- Revenue Forecast Accuracy -->
+            <div class="col">
+                <div class="glass-card kpi-card p-3 h-100" style="--kpi-color: var(--primary); animation-delay: 0.5s;">
+                    <div class="text-muted small fw-bold mb-1">Rev Acc</div>
+                    <div class="fs-4 fw-bold text-primary" id="kpi-rev-acc">92.4%</div>
+                    <div class="small text-secondary mt-1">Forecast Variance</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row g-4 mb-4">
+            
+            <!-- SECTION 3: ITERATION COMPARISON DASHBOARD -->
+            <div class="col-xl-8 col-lg-7">
+                <div class="glass-card p-4 h-100">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5 class="fw-bold m-0"><i class="fa-solid fa-chart-column me-2 text-primary"></i>Iteration Comparison Dashboard</h5>
+                        <div class="d-flex gap-2">
+                            <select class="form-select form-select-sm bg-transparent border-card text-primary" id="comparisonMetric" style="width: auto;">
+                                <option value="ROC-AUC">ROC-AUC</option>
+                                <option value="F1">F1 Score</option>
+                                <option value="Precision">Precision</option>
+                                <option value="Recall">Recall</option>
+                                <option value="Forecast Accuracy">Forecast Accuracy</option>
+                            </select>
+                            <div class="btn-group btn-group-sm" role="group">
+                                <button type="button" class="btn btn-outline-secondary comparison-type-btn active" data-type="line">Line</button>
+                                <button type="button" class="btn btn-outline-secondary comparison-type-btn" data-type="bar">Bar</button>
+                                <button type="button" class="btn btn-outline-secondary comparison-type-btn" data-type="area">Area</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="chart-iteration-comparison" style="height: 380px;"></div>
+                </div>
+            </div>
+
+            <!-- SECTION 4: MODEL LEADERBOARD -->
+            <div class="col-xl-4 col-lg-5">
+                <div class="glass-card p-4 h-100">
+                    <h5 class="fw-bold mb-3"><i class="fa-solid fa-medal me-2 text-warning"></i>Model Leaderboard</h5>
+                    <p class="text-secondary small mb-3">Ranking of algorithms evaluated across chronological walk-forward iterations.</p>
+                    <div class="table-responsive">
+                        <table class="table border-card align-middle">
+                            <thead>
+                                <tr class="text-muted small">
+                                    <th>Rank</th>
+                                    <th>Model</th>
+                                    <th>Avg AUC</th>
+                                    <th>Avg F1</th>
+                                    <th>Rev Acc</th>
+                                </tr>
+                            </thead>
+                            <tbody id="leaderboardBody">
+                                <!-- Leaderboard content loaded dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- SECTION 2: WALK FORWARD ITERATION RESULTS (AG GRID) -->
+        <div class="glass-card p-4 mb-4">
+            <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
+                <div>
+                    <h5 class="fw-bold m-0"><i class="fa-solid fa-route me-2 text-primary"></i>Walk Forward Iteration Results</h5>
+                    <p class="small text-secondary m-0">Detailed breakdown of folds, temporal testing boundaries, and model evaluations.</p>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <button class="btn btn-sm btn-outline-secondary" id="gridExportCsv"><i class="fa-solid fa-file-csv me-1"></i>CSV</button>
+                    <button class="btn btn-sm btn-outline-secondary" id="gridExportExcel"><i class="fa-solid fa-file-excel me-1"></i>Excel</button>
+                    <button class="btn btn-sm btn-outline-secondary" id="gridExportJson"><i class="fa-solid fa-file-code me-1"></i>JSON</button>
+                    <button class="btn btn-sm btn-outline-secondary" id="gridExportPdf"><i class="fa-solid fa-file-pdf me-1"></i>PDF</button>
+                </div>
+            </div>
+            <div id="iterationGrid" class="ag-theme-alpine-dark" style="height: 300px; width: 100%;"></div>
+        </div>
+
+        <div class="row g-4 mb-4">
+            
+            <!-- SECTION 5: ACTUAL VS PREDICTED REVENUE -->
+            <div class="col-lg-6">
+                <div class="glass-card p-4 h-100">
+                    <h5 class="fw-bold mb-3"><i class="fa-solid fa-coins me-2 text-primary"></i>Actual vs Predicted Revenue</h5>
+                    <div id="chart-actual-vs-predicted" style="height: 380px;"></div>
+                </div>
+            </div>
+
+            <!-- SECTION 6: CONFUSION MATRIX ANALYSIS -->
+            <div class="col-lg-6">
+                <div class="glass-card p-4 h-100">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5 class="fw-bold m-0"><i class="fa-solid fa-border-all me-2 text-primary"></i>Confusion Matrix Analysis</h5>
+                        <div class="btn-group btn-group-sm" role="group">
+                            <button type="button" class="btn btn-outline-secondary confusion-view-btn active" data-view="raw">Raw Counts</button>
+                            <button type="button" class="btn btn-outline-secondary confusion-view-btn" data-view="normalized">Normalized (%)</button>
+                        </div>
+                    </div>
+                    <div id="chart-confusion-matrix" style="height: 380px;"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- SECTION 7: CALIBRATION ANALYSIS -->
+        <div class="glass-card p-4 mb-4">
+            <h5 class="fw-bold mb-3"><i class="fa-solid fa-chart-line me-2 text-primary"></i>Calibration Curve & Probability Reliability</h5>
+            <div class="calibration-grid">
+                <div>
+                    <div id="chart-calibration-curve" style="height: 360px;"></div>
+                </div>
+                <div class="glass-card p-4" style="background: rgba(var(--primary-rgb), 0.02);">
+                    <h6 class="fw-bold text-primary mb-3"><i class="fa-solid fa-calculator me-2"></i>Calibration Metrics</h6>
+                    <div class="row g-2 mb-3">
+                        <div class="col-7 text-secondary small">Brier Score:</div>
+                        <div class="col-5 fw-bold text-success text-end" id="calib-brier">0.1245</div>
+                        
+                        <div class="col-7 text-secondary small">Expected Calibration Error (ECE):</div>
+                        <div class="col-5 fw-bold text-success text-end" id="calib-ece">0.0384</div>
+
+                        <div class="col-7 text-secondary small">Reliability Score:</div>
+                        <div class="col-5 fw-bold text-success text-end" id="calib-reliability">96.16%</div>
+                    </div>
+                    
+                    <h6 class="fw-bold border-top border-card pt-3 mt-2 text-primary" style="font-size: 14px;">What does this mean?</h6>
+                    <p class="small text-secondary mb-0" style="line-height: 1.6;">
+                        A calibration curve plots the AI's <strong>predicted probabilities</strong> (e.g., 70% win chance) against the <strong>actual proportion of wins</strong> historically achieved (e.g., did 70% of those deals close won?).
+                        <br/><br/>
+                        Close alignment to the diagonal dashed line indicates that the model's probabilities represent actual statistical frequencies, which is vital for trust, forecasting, and pipeline scoring.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4 mb-4">
+
+            <!-- SECTION 8: FEATURE IMPORTANCE STABILITY -->
+            <div class="col-lg-6">
+                <div class="glass-card p-4 h-100">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5 class="fw-bold m-0"><i class="fa-solid fa-list-check me-2 text-primary"></i>Feature Importance Stability</h5>
+                        <input type="text" class="form-control form-control-sm bg-transparent border-card text-primary" id="searchFeatureStability" placeholder="Search feature..." style="width: auto;">
+                    </div>
+                    <div id="chart-feature-stability" style="height: 380px;"></div>
+                </div>
+            </div>
+
+            <!-- SECTION 9: DRIFT ANALYSIS -->
+            <div class="col-lg-6">
+                <div class="glass-card p-4 h-100">
+                    <h5 class="fw-bold mb-3"><i class="fa-solid fa-gauge-high me-2 text-primary"></i>Model & Feature Drift Analysis</h5>
+                    <div class="row g-2 mb-3">
+                        <div class="col-md-4">
+                            <div class="p-3 rounded border border-card bg-dark-subtle text-center">
+                                <div class="text-secondary small mb-1">Prediction Drift</div>
+                                <div class="fw-bold fs-5 text-success">PSI = 0.042</div>
+                                <span class="badge bg-success-subtle text-success mt-1 rounded-pill"><i class="fa-solid fa-circle-check me-1"></i>Stable</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="p-3 rounded border border-card bg-dark-subtle text-center">
+                                <div class="text-secondary small mb-1">Feature Drift</div>
+                                <div class="fw-bold fs-5 text-success">Avg PSI = 0.068</div>
+                                <span class="badge bg-success-subtle text-success mt-1 rounded-pill"><i class="fa-solid fa-circle-check me-1"></i>Stable</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="p-3 rounded border border-card bg-dark-subtle text-center">
+                                <div class="text-secondary small mb-1">Population Stability</div>
+                                <div class="fw-bold fs-5 text-success">Stable</div>
+                                <div class="d-flex align-items-center justify-content-center gap-2 mt-1">
+                                    <span class="drift-dot status-green" title="Low Drift (PSI < 0.1)"></span>
+                                    <span class="small text-success">Low</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="chart-drift-analysis" style="height: 250px;"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- SECTION 10: OPPORTUNITY PREDICTION HISTORY (AG GRID) -->
+        <div class="glass-card p-4 mb-4">
+            <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
+                <div>
+                    <h5 class="fw-bold m-0"><i class="fa-solid fa-clock-rotate-left me-2 text-primary"></i>Opportunity Prediction History</h5>
+                    <p class="small text-secondary m-0">Audit log of historical predictions, correct classification records, and error profiling.</p>
+                </div>
+                <div class="d-flex gap-2">
+                    <input type="text" class="form-control form-control-sm bg-transparent border-card text-primary" id="searchHistory" placeholder="Search grid..." style="width: auto;">
+                    <button class="btn btn-sm btn-outline-secondary" id="historyExport"><i class="fa-solid fa-file-csv me-1"></i>Export CSV</button>
+                </div>
+            </div>
+            <div id="predictionHistoryGrid" class="ag-theme-alpine-dark" style="height: 380px; width: 100%;"></div>
+        </div>
+
+        <!-- SECTION 11: DOWNLOAD CENTER -->
+        <div class="glass-card p-4 mb-4">
+            <h5 class="fw-bold mb-3"><i class="fa-solid fa-cloud-arrow-down me-2 text-primary"></i>Download Center</h5>
+            <p class="text-secondary small mb-4">Extract dynamically generated datasets, validation reports, and integration packs.</p>
+            
+            <div class="row g-4">
+                
+                <!-- Iteration Downloads -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="p-3 rounded border border-card bg-dark-subtle h-100">
+                        <h6 class="fw-bold text-primary mb-3 border-bottom border-card pb-2"><i class="fa-solid fa-folder me-2"></i>Iteration 1</h6>
+                        <ul class="list-unstyled d-flex flex-column gap-2 small">
+                            <li><a href="#" class="text-secondary text-decoration-none download-link" data-type="validation-rep" data-iter="1"><i class="fa-solid fa-file-pdf me-2 text-danger"></i>Validation Report</a></li>
+                            <li><a href="#" class="text-secondary text-decoration-none download-link" data-type="pred-history" data-iter="1"><i class="fa-solid fa-file-csv me-2 text-success"></i>Prediction History</a></li>
+                            <li><a href="#" class="text-secondary text-decoration-none download-link" data-type="confusion" data-iter="1"><i class="fa-solid fa-file-code me-2 text-warning"></i>Confusion Matrix</a></li>
+                            <li><a href="#" class="text-secondary text-decoration-none download-link" data-type="calibration" data-iter="1"><i class="fa-solid fa-chart-line me-2 text-info"></i>Calibration Report</a></li>
+                            <li><a href="#" class="text-secondary text-decoration-none download-link" data-type="features" data-iter="1"><i class="fa-solid fa-list me-2 text-primary"></i>Feature Importance</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="p-3 rounded border border-card bg-dark-subtle h-100">
+                        <h6 class="fw-bold text-primary mb-3 border-bottom border-card pb-2"><i class="fa-solid fa-folder me-2"></i>Iteration 2</h6>
+                        <ul class="list-unstyled d-flex flex-column gap-2 small">
+                            <li><a href="#" class="text-secondary text-decoration-none download-link" data-type="validation-rep" data-iter="2"><i class="fa-solid fa-file-pdf me-2 text-danger"></i>Validation Report</a></li>
+                            <li><a href="#" class="text-secondary text-decoration-none download-link" data-type="pred-history" data-iter="2"><i class="fa-solid fa-file-csv me-2 text-success"></i>Prediction History</a></li>
+                            <li><a href="#" class="text-secondary text-decoration-none download-link" data-type="confusion" data-iter="2"><i class="fa-solid fa-file-code me-2 text-warning"></i>Confusion Matrix</a></li>
+                            <li><a href="#" class="text-secondary text-decoration-none download-link" data-type="calibration" data-iter="2"><i class="fa-solid fa-chart-line me-2 text-info"></i>Calibration Report</a></li>
+                            <li><a href="#" class="text-secondary text-decoration-none download-link" data-type="features" data-iter="2"><i class="fa-solid fa-list me-2 text-primary"></i>Feature Importance</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="p-3 rounded border border-card bg-dark-subtle h-100">
+                        <h6 class="fw-bold text-primary mb-3 border-bottom border-card pb-2"><i class="fa-solid fa-folder me-2"></i>Iteration 3</h6>
+                        <ul class="list-unstyled d-flex flex-column gap-2 small">
+                            <li><a href="#" class="text-secondary text-decoration-none download-link" data-type="validation-rep" data-iter="3"><i class="fa-solid fa-file-pdf me-2 text-danger"></i>Validation Report</a></li>
+                            <li><a href="#" class="text-secondary text-decoration-none download-link" data-type="pred-history" data-iter="3"><i class="fa-solid fa-file-csv me-2 text-success"></i>Prediction History</a></li>
+                            <li><a href="#" class="text-secondary text-decoration-none download-link" data-type="confusion" data-iter="3"><i class="fa-solid fa-file-code me-2 text-warning"></i>Confusion Matrix</a></li>
+                            <li><a href="#" class="text-secondary text-decoration-none download-link" data-type="calibration" data-iter="3"><i class="fa-solid fa-chart-line me-2 text-info"></i>Calibration Report</a></li>
+                            <li><a href="#" class="text-secondary text-decoration-none download-link" data-type="features" data-iter="3"><i class="fa-solid fa-list me-2 text-primary"></i>Feature Importance</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Global Downloads -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="p-3 rounded border border-card bg-dark-subtle h-100">
+                        <h6 class="fw-bold text-primary mb-3 border-bottom border-card pb-2"><i class="fa-solid fa-earth-americas me-2"></i>Global Resources</h6>
+                        <div class="d-flex flex-column gap-2">
+                            <button class="btn btn-sm btn-outline-secondary text-start" id="dlAllZip"><i class="fa-solid fa-file-zipper me-2 text-warning"></i>Download All Results ZIP</button>
+                            <button class="btn btn-sm btn-outline-secondary text-start" id="dlExecPdf"><i class="fa-solid fa-file-pdf me-2 text-danger"></i>Download Executive PDF</button>
+                            <button class="btn btn-sm btn-outline-secondary text-start" id="dlPowerBi"><i class="fa-solid fa-chart-bar me-2 text-warning"></i>Download Power BI Dataset</button>
+                            <button class="btn btn-sm btn-outline-secondary text-start" id="dlForecast"><i class="fa-solid fa-table me-2 text-success"></i>Download Forecast Dataset</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- MISCLASSIFIED OPPORTUNITIES MODAL (Section 6 Trigger) -->
+    <div class="modal fade" id="misclassifiedModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content glass-card text-primary" style="background: rgba(15, 20, 35, 0.95); border: 1px solid var(--border-card);">
+                <div class="modal-header border-card">
+                    <h5 class="modal-title fw-bold" id="misclassifiedModalTitle">Misclassified Opportunities</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-secondary small mb-3">Audit list of open opportunities where predicted outcome did not match actual state.</p>
+                    <div id="misclassifiedGrid" class="ag-theme-alpine-dark" style="height: 400px; width: 100%;"></div>
+                </div>
+                <div class="modal-footer border-card">
+                    <button class="btn btn-sm btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                    <button class="btn btn-sm btn-primary" id="exportMisclassified"><i class="fa-solid fa-download me-1"></i>Export List</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- ECharts JS -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    
+    <!-- AG Grid JS -->
+    <script src="https://cdn.jsdelivr.net/npm/ag-grid-community@31.3.2/dist/ag-grid-community.min.js"></script>
+    
+    <!-- Custom validation page controller -->
+    <script src="js/validation.js"></script>
+</body>
+</html>

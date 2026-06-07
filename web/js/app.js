@@ -20,6 +20,19 @@ document.addEventListener('DOMContentLoaded', () => {
     initTheme();
     loadAllData();
     setupEventListeners();
+    
+    // Hash routing for tabs
+    const hash = window.location.hash;
+    if (hash) {
+        const tabEl = document.querySelector(`button[data-bs-target="${hash}"]`);
+        if (tabEl) {
+            // Bootstrap Tab instance activation
+            setTimeout(() => {
+                const tab = new bootstrap.Tab(tabEl);
+                tab.show();
+            }, 100);
+        }
+    }
 });
 
 // Theme Management
