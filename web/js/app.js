@@ -426,6 +426,42 @@ function setupEventListeners() {
             meaning: 'This visualizes predicted win rates and pipeline values distributed across different geographic country entities or regions.',
             understand: 'Darker colors or bubble size represent higher pipeline volume or superior close rates, depending on the map overlay context.',
             use: 'Compare performance across regions to allocate territory budgets, align regional partner support, and share best practices from high-performing regions.'
+        },
+        'filter-search': {
+            title: 'Search Filter',
+            meaning: 'The Search Opportunities / Clients filter performs a live text search on active deals.',
+            understand: 'It matches characters against opportunity numbers (e.g. OPP-01234) or client names (e.g. Acme Corp), filtering the list views and dashboard aggregates dynamically.',
+            use: 'Type a client\'s name or a specific opportunity code to instantly review their forecast win probability, risk score, expected close month, and top SHAP drivers.'
+        },
+        'filter-region': {
+            title: 'Region Filter',
+            meaning: 'The Region filter slices the entire dataset to show only opportunities belonging to a specific geographic territory (e.g. NA, EMEA, APAC, LATAM).',
+            understand: 'Selecting a region filters all KPI summaries, forecast lines, pipeline funnels, outcome distributions, and grids. Selecting "All Regions" resets the filter.',
+            use: 'Use this to compare performance metrics and closing predictions between different regional territories, helping regional heads inspect local pipeline health.'
+        },
+        'filter-bu': {
+            title: 'Business Unit Filter',
+            meaning: 'The Business Unit filter restricts the dashboard view to opportunities belonging to a specific department or service vertical.',
+            understand: 'Filters all active and predicted opportunities according to the business unit they are assigned to (e.g., Consulting, Outsourcing).',
+            use: 'Enables departmental heads and delivery leads to review and simulate revenue targets specific to their division without mixing in other operations.'
+        },
+        'filter-industry': {
+            title: 'Core Industry Filter',
+            meaning: 'The Industry filter isolates opportunities by client industry sector (e.g., Financial Services, Healthcare, Technology).',
+            understand: 'Limits the active deal lists, KPIs, and ECharts visualizations to represent only opportunities in the chosen sector.',
+            use: 'Helps sector leaders and marketing teams examine win rates, deal distributions, and risks within specific industry spaces, pointing out vertical strengths or weaknesses.'
+        },
+        'filter-value': {
+            title: 'Deal Value (Min) Filter',
+            meaning: 'The Deal Value (Min) slider sets a minimum threshold for the unweighted opportunity amount, filtering out smaller engagements.',
+            understand: 'Moving the slider to the right removes all opportunities from the views that are valued below the selected limit (from $0 up to $1,000,000+).',
+            use: 'Use this to instantly filter out small transactional pipeline deals, allowing executives to audit and review only high-value, critical enterprise negotiations.'
+        },
+        'filter-risk': {
+            title: 'Risk Level Filter',
+            meaning: 'The Risk Level filter segments the opportunity pipeline into risk categories based on their AI-calculated Risk Scores (0-100).',
+            understand: '• All: Displays all opportunities.\n• Med: Opportunities with Risk Score between 40 and 69.\n• High: Opportunities with Risk Score >= 70 (high risk of failing or slipping).',
+            use: 'Click "High" to instantly focus on the most vulnerable opportunities, enabling sales managers to initiate intervention protocols and save deals in jeopardy.'
         }
     };
 
