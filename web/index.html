@@ -335,9 +335,13 @@
                         </div>
 
                         <!-- 1. Pictorial Data Pipeline Flowchart -->
-                        <h5 class="fw-bold mb-3"><i class="fa-solid fa-diagram-project me-2 text-primary"></i>End-to-End Modeling Pipeline</h5>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h5 class="fw-bold m-0"><i class="fa-solid fa-diagram-project me-2 text-primary"></i>End-to-End Modeling Pipeline</h5>
+                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-2 py-1 small animate__animated animate__pulse animate__infinite"><i class="fa-solid fa-hand-pointer me-1"></i>Click any step card to inspect details</span>
+                        </div>
+                        
                         <div class="pipeline-flow-container">
-                            <div class="pipeline-node">
+                            <div class="pipeline-node" data-step="1">
                                 <div class="node-badge">1</div>
                                 <div class="node-header">
                                     <div class="node-icon-wrapper"><i class="fa-solid fa-database"></i></div>
@@ -346,7 +350,7 @@
                                 <p class="node-desc">Loads 48 monthly snapshots of Salesforce opportunity history. Maps dynamic records across monthly periods to track stage movements and deal characteristics.</p>
                             </div>
                             
-                            <div class="pipeline-node">
+                            <div class="pipeline-node" data-step="2">
                                 <div class="node-badge">2</div>
                                 <div class="node-header">
                                     <div class="node-icon-wrapper"><i class="fa-solid fa-shield-halved"></i></div>
@@ -355,7 +359,7 @@
                                 <p class="node-desc">Excludes future closed variables (e.g. <code>Closed Date</code>, <code>IsWon</code>) from features. Enforces absolute temporal boundaries to guarantee zero target look-ahead leakage.</p>
                             </div>
                             
-                            <div class="pipeline-node">
+                            <div class="pipeline-node" data-step="3">
                                 <div class="node-badge">3</div>
                                 <div class="node-header">
                                     <div class="node-icon-wrapper"><i class="fa-solid fa-gears"></i></div>
@@ -364,7 +368,7 @@
                                 <p class="node-desc">Computes 24 dynamic indicators including stage velocity, snapshot appearance frequency, slippage trackers, and cumulative client win/loss histories prior to date S.</p>
                             </div>
                             
-                            <div class="pipeline-node">
+                            <div class="pipeline-node" data-step="4">
                                 <div class="node-badge">4</div>
                                 <div class="node-header">
                                     <div class="node-icon-wrapper"><i class="fa-solid fa-shuffle"></i></div>
@@ -373,7 +377,7 @@
                                 <p class="node-desc">Splits trainable data chronologically into 3 folds. Uses sliding-window test datasets representing successive 6-month horizons to simulate real-world inference.</p>
                             </div>
                             
-                            <div class="pipeline-node">
+                            <div class="pipeline-node" data-step="5">
                                 <div class="node-badge">5</div>
                                 <div class="node-header">
                                     <div class="node-icon-wrapper"><i class="fa-solid fa-cubes"></i></div>
@@ -382,7 +386,7 @@
                                 <p class="node-desc">Trains and compares 5 ML models (Logistic Regression, Random Forest, CatBoost, LightGBM, XGBoost) on outcome classifier and regression models.</p>
                             </div>
                             
-                            <div class="pipeline-node">
+                            <div class="pipeline-node" data-step="6">
                                 <div class="node-badge">6</div>
                                 <div class="node-header">
                                     <div class="node-icon-wrapper"><i class="fa-solid fa-square-poll-vertical"></i></div>
@@ -625,7 +629,33 @@
         </div>
     </div>
 
-    <!-- Bootstrap 5 Bundle JS -->
+    <!-- Methodology Details Sidebar -->
+    <div class="detail-sidebar" id="methodologySidebar">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h4 class="fw-bold m-0 text-primary" id="meth-sidebar-title">Pipeline Step</h4>
+            <button class="btn btn-link p-0 text-muted" id="closeMethSidebar"><i class="fa-solid fa-xmark fs-4"></i></button>
+        </div>
+        
+        <div class="mb-4">
+            <h5 class="fw-bold border-bottom border-card pb-2 text-warning" style="font-size: 14px;"><i class="fa-solid fa-circle-question me-2"></i>What is this step?</h5>
+            <p class="small text-secondary" id="meth-sidebar-what" style="line-height: 1.6; font-size: 13px;"></p>
+        </div>
+
+        <div class="mb-4">
+            <h5 class="fw-bold border-bottom border-card pb-2 text-info" style="font-size: 14px;"><i class="fa-solid fa-square-check me-2"></i>What was done?</h5>
+            <p class="small text-secondary" id="meth-sidebar-done" style="line-height: 1.6; font-size: 13px;"></p>
+        </div>
+
+        <div class="mb-4">
+            <h5 class="fw-bold border-bottom border-card pb-2 text-success" style="font-size: 14px;"><i class="fa-solid fa-lightbulb me-2"></i>Why was it done?</h5>
+            <p class="small text-secondary" id="meth-sidebar-why" style="line-height: 1.6; font-size: 13px;"></p>
+        </div>
+
+        <div class="mb-4">
+            <h5 class="fw-bold border-bottom border-card pb-2 text-danger" style="font-size: 14px;"><i class="fa-solid fa-square-poll-vertical me-2"></i>What was found (Results)?</h5>
+            <p class="small text-secondary" id="meth-sidebar-results" style="line-height: 1.6; font-size: 13px;"></p>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     
     <!-- ECharts JS -->

@@ -244,6 +244,7 @@ body {
     border: 1px solid var(--border-card);
     box-shadow: var(--card-shadow);
     transition: all var(--transition-speed) ease;
+    cursor: pointer;
 }
 
 .pipeline-node:hover {

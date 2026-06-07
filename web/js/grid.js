@@ -38,6 +38,10 @@ function confidenceRenderer(params) {
 function onRowClicked(event) {
     const d = event.data;
     
+    // Close methodology sidebar if open
+    const methSidebar = document.getElementById('methodologySidebar');
+    if (methSidebar) methSidebar.classList.remove('open');
+    
     // Slide open sidebar
     const sidebar = document.getElementById('detailSidebar');
     sidebar.classList.add('open');
