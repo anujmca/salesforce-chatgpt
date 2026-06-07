@@ -357,6 +357,102 @@ function setupEventListeners() {
         });
     });
 
+    // Close Help Sidebar
+    const closeHelpBtn = document.getElementById('closeHelpSidebar');
+    if (closeHelpBtn) {
+        closeHelpBtn.addEventListener('click', () => {
+            document.getElementById('helpSidebar').classList.remove('open');
+        });
+    }
+
+    // Command Center Help Content Mappings
+    const COMMAND_CENTER_HELP = {
+        'kpi-pipeline': {
+            title: 'Total Pipeline',
+            meaning: 'Total Pipeline is the cumulative value (unweighted sum) of all active, open opportunities currently in Stages 1 to 4 in our system. It excludes already closed deals (Won, Lost, or Abandoned).',
+            understand: 'This KPI represents the raw, maximum potential value of all deals the sales team is actively pursuing. It does not apply any probability weighting.',
+            use: 'Monitor this to assess the overall volume of active negotiations. If the total pipeline shrinks, it indicates a critical lack of new lead generation in the early stages.'
+        },
+        'kpi-revenue': {
+            title: 'Predicted Revenue',
+            meaning: 'Predicted Revenue is the probability-weighted value of the active pipeline. It is calculated as the sum of each open opportunity\'s value multiplied by its machine learning-predicted Win Probability.',
+            understand: 'Unlike simple weighted forecasts based on static stage percentages, this prediction is driven by XGBoost using 24 dynamic indicators (deal age, velocity, past client close rate, etc.). It represents the statistically expected revenue that will close won.',
+            use: 'Use this figure for realistic financial planning and matching against quarterly sales targets. It serves as your AI-informed baseline expectation.'
+        },
+        'kpi-win-rate': {
+            title: 'Predicted Win Rate',
+            meaning: 'Predicted Win Rate represents the average weighted win probability across the selected pipeline segment. It is calculated as: (Predicted Revenue / Total Pipeline) * 100.',
+            understand: 'A higher percentage indicates a high-health pipeline containing deals with high close-probabilities. A lower percentage suggests the pipeline contains high-value but risky or stalled deals.',
+            use: 'Track this value across divisions and industries. If a specific business unit\'s predicted win rate drops, drill down to inspect stuck opportunities.'
+        },
+        'kpi-avg-val': {
+            title: 'Avg Deal Value',
+            meaning: 'Avg Deal Value is the mathematical mean of all open opportunity values. It is calculated by dividing the Total Pipeline by the number of active open deals.',
+            understand: 'Gives the typical scale of a deal currently in negotiation. Helps track if the team is shifting towards smaller transactional deals or larger enterprise engagements.',
+            use: 'Compare this value against historical close sizes. If the average deal value rises while predicted win rate remains steady, it indicates scaling capacity.'
+        },
+        'kpi-accuracy': {
+            title: 'Forecast Accuracy',
+            meaning: 'Forecast Accuracy measures the out-of-sample predictive performance (classification ROC AUC) of our champion XGBoost machine learning model on historical validation datasets.',
+            understand: 'Currently verified at 83.7% ROC AUC. This means the model can distinguish between future successful and unsuccessful opportunities with 83.7% reliability, far exceeding standard industry baselines.',
+            use: 'Gives executives and finance directors confidence in the stability and accuracy of the predicted revenue target. A higher accuracy justifies bold resource commitments.'
+        },
+        'kpi-coverage': {
+            title: 'Coverage Ratio',
+            meaning: 'Coverage Ratio is the ratio of the Total Pipeline value to the Predicted Revenue (or nominal sales targets). It is calculated as: Total Pipeline / Predicted Revenue.',
+            understand: 'Currently at 3.1x. In enterprise sales, a coverage ratio of 3.0x to 4.0x is considered healthy. This ensures there are enough opportunities in play to cushion against expected deal slippage and losses.',
+            use: 'If this ratio drops below 3.0x, increase focus on outbound prospecting and marketing lead generation. If it rises above 5.0x, focus sales resources on closing high-value deals.'
+        },
+        'chart-revenue-trend': {
+            title: 'Revenue Forecast Trend',
+            meaning: 'This chart projects month-by-month expected closed-won revenue over the next 12 months based on machine learning predictions.',
+            understand: 'It compares three distinct scenarios:\n• Most Likely: Probability-weighted revenue.\n• Best Case: Revenue from deals with win probability >= 30%.\n• Worst Case: Revenue from deals with win probability >= 80%.',
+            use: 'Helps identify revenue gaps in upcoming months and quarters. If the "Most Likely" line falls short of the target in month 3, sales teams can proactively accelerate deals scheduled for month 4 or 5.'
+        },
+        'chart-funnel': {
+            title: 'Pipeline Funnel',
+            meaning: 'This funnel chart visualizes the distribution of active, open opportunities across the four progressive sales stages: 1. Identify Opp, 2. Qualify Opp, 3. Develop Opp, and 4. Negotiate Opp.',
+            understand: 'A healthy funnel shows a smooth taper (wide at the top in early stages, narrower at the bottom in negotiation). Severe necking or bulges indicate bottlenecks.',
+            use: 'Use this to audit stage transitions. For example, if there is a massive block in Stage 2 (Qualify) but very few in Stage 3 (Develop), the qualification criteria may be too restrictive or slow.'
+        },
+        'chart-outcome-dist': {
+            title: 'Outcome Distribution',
+            meaning: 'This chart breaks down the predicted final outcomes (Won, Lost, or Abandoned) for all open opportunities based on our XGBoost multi-class classifier.',
+            understand: 'Shows what percentage of the active pipeline is expected to close won vs. what percentage will leak (close lost or be abandoned by the client).',
+            use: 'Use it to assess pipeline risk. A high proportion of predicted Lost or Abandoned deals indicates that sales reps are holding low-quality deals in their active registry.'
+        },
+        'chart-geo': {
+            title: 'Geographic Performance Map',
+            meaning: 'This visualizes predicted win rates and pipeline values distributed across different geographic country entities or regions.',
+            understand: 'Darker colors or bubble size represent higher pipeline volume or superior close rates, depending on the map overlay context.',
+            use: 'Compare performance across regions to allocate territory budgets, align regional partner support, and share best practices from high-performing regions.'
+        }
+    };
+
+    // Hook Help Triggers
+    document.querySelectorAll('.help-trigger').forEach(trigger => {
+        trigger.addEventListener('click', (e) => {
+            e.stopPropagation(); // Prevent event bubbling
+            const helpId = e.currentTarget.dataset.help;
+            const details = COMMAND_CENTER_HELP[helpId];
+            if (!details) return;
+
+            // Close other sidebars
+            const oppSidebar = document.getElementById('detailSidebar');
+            if (oppSidebar) oppSidebar.classList.remove('open');
+            const methSidebar = document.getElementById('methodologySidebar');
+            if (methSidebar) methSidebar.classList.remove('open');
+
+            // Populate help sidebar
+            document.getElementById('help-sidebar-title').textContent = details.title;
+            document.getElementById('help-sidebar-meaning').textContent = details.meaning;
+            document.getElementById('help-sidebar-understand').textContent = details.understand;
+            document.getElementById('help-sidebar-use').textContent = details.use;
+
+            // Open sidebar
+            document.getElementById('helpSidebar').classList.add('open');
+        });
+    });
 
     // Full screen
     document.getElementById('fullscreenToggle').addEventListener('click', () => {

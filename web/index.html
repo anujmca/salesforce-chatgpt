@@ -151,55 +151,85 @@
                         <!-- KPI Row -->
                         <div class="kpi-container">
                             <div class="glass-card kpi-card" style="--kpi-color: var(--primary);">
-                                <div class="kpi-title">Total Pipeline</div>
+                                <div class="kpi-title d-flex align-items-center justify-content-between">
+                                    <span>Total Pipeline</span>
+                                    <i class="fa-solid fa-circle-question text-muted help-trigger" data-help="kpi-pipeline" style="cursor: pointer; font-size: 13px;" title="Click for help"></i>
+                                </div>
                                 <div class="kpi-value" id="kpi-pipeline">$0.0M</div>
                             </div>
                             <div class="glass-card kpi-card" style="--kpi-color: var(--success);">
-                                <div class="kpi-title">Predicted Revenue</div>
+                                <div class="kpi-title d-flex align-items-center justify-content-between">
+                                    <span>Predicted Revenue</span>
+                                    <i class="fa-solid fa-circle-question text-muted help-trigger" data-help="kpi-revenue" style="cursor: pointer; font-size: 13px;" title="Click for help"></i>
+                                </div>
                                 <div class="kpi-value" id="kpi-revenue">$0.0M</div>
                             </div>
                             <div class="glass-card kpi-card" style="--kpi-color: var(--success);">
-                                <div class="kpi-title">Predicted Win Rate</div>
+                                <div class="kpi-title d-flex align-items-center justify-content-between">
+                                    <span>Predicted Win Rate</span>
+                                    <i class="fa-solid fa-circle-question text-muted help-trigger" data-help="kpi-win-rate" style="cursor: pointer; font-size: 13px;" title="Click for help"></i>
+                                </div>
                                 <div class="kpi-value" id="kpi-win-rate">0.0%</div>
                             </div>
                             <div class="glass-card kpi-card" style="--kpi-color: var(--warning);">
-                                <div class="kpi-title">Avg Deal Value</div>
+                                <div class="kpi-title d-flex align-items-center justify-content-between">
+                                    <span>Avg Deal Value</span>
+                                    <i class="fa-solid fa-circle-question text-muted help-trigger" data-help="kpi-avg-val" style="cursor: pointer; font-size: 13px;" title="Click for help"></i>
+                                </div>
                                 <div class="kpi-value" id="kpi-avg-val">$0k</div>
                             </div>
                             <div class="glass-card kpi-card" style="--kpi-color: var(--primary);">
-                                <div class="kpi-title">Forecast Accuracy</div>
+                                <div class="kpi-title d-flex align-items-center justify-content-between">
+                                    <span>Forecast Accuracy</span>
+                                    <i class="fa-solid fa-circle-question text-muted help-trigger" data-help="kpi-accuracy" style="cursor: pointer; font-size: 13px;" title="Click for help"></i>
+                                </div>
                                 <div class="kpi-value" id="kpi-accuracy">83.7%</div>
                             </div>
                             <div class="glass-card kpi-card" style="--kpi-color: var(--danger);">
-                                <div class="kpi-title">Coverage Ratio</div>
+                                <div class="kpi-title d-flex align-items-center justify-content-between">
+                                    <span>Coverage Ratio</span>
+                                    <i class="fa-solid fa-circle-question text-muted help-trigger" data-help="kpi-coverage" style="cursor: pointer; font-size: 13px;" title="Click for help"></i>
+                                </div>
                                 <div class="kpi-value" id="kpi-coverage">3.1x</div>
                             </div>
                         </div>
-
+ 
                         <!-- Chart Grid -->
                         <div class="dashboard-grid">
                             <div class="glass-card chart-card-eight">
                                 <div class="chart-title">
-                                    <span>Revenue Forecast Trend (12 Months)</span>
+                                    <div class="d-flex align-items-center">
+                                        <span>Revenue Forecast Trend (12 Months)</span>
+                                        <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="chart-revenue-trend" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                                    </div>
                                     <small class="text-muted"><i class="fa-solid fa-chart-line me-1"></i>ECharts Trend</small>
                                 </div>
                                 <div class="chart-container" id="chart-revenue-trend"></div>
                             </div>
                             <div class="glass-card chart-card-four">
                                 <div class="chart-title">
-                                    <span>Pipeline Funnel</span>
+                                    <div class="d-flex align-items-center">
+                                        <span>Pipeline Funnel</span>
+                                        <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="chart-funnel" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                                    </div>
                                 </div>
                                 <div class="chart-container" id="chart-funnel"></div>
                             </div>
                             <div class="glass-card chart-card-half">
                                 <div class="chart-title">
-                                    <span>Outcome Distribution</span>
+                                    <div class="d-flex align-items-center">
+                                        <span>Outcome Distribution</span>
+                                        <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="chart-outcome-dist" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                                    </div>
                                 </div>
                                 <div class="chart-container" id="chart-outcome-dist"></div>
                             </div>
                             <div class="glass-card chart-card-half">
                                 <div class="chart-title">
-                                    <span>Geographic Performance Map</span>
+                                    <div class="d-flex align-items-center">
+                                        <span>Geographic Performance Map</span>
+                                        <i class="fa-solid fa-circle-question text-muted ms-2 help-trigger" data-help="chart-geo" style="cursor: pointer; font-size: 14px;" title="Click for help"></i>
+                                    </div>
                                 </div>
                                 <div class="chart-container" id="chart-geo"></div>
                             </div>
@@ -654,6 +684,29 @@
         <div class="mb-4">
             <h5 class="fw-bold border-bottom border-card pb-2 text-danger" style="font-size: 14px;"><i class="fa-solid fa-square-poll-vertical me-2"></i>What was found (Results)?</h5>
             <p class="small text-secondary" id="meth-sidebar-results" style="line-height: 1.6; font-size: 13px;"></p>
+        </div>
+    </div>
+
+    <!-- Dashboard Help Sidebar -->
+    <div class="detail-sidebar" id="helpSidebar">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h4 class="fw-bold m-0 text-primary" id="help-sidebar-title">Section Help</h4>
+            <button class="btn btn-link p-0 text-muted" id="closeHelpSidebar"><i class="fa-solid fa-xmark fs-4"></i></button>
+        </div>
+        
+        <div class="mb-4">
+            <h5 class="fw-bold border-bottom border-card pb-2 text-warning" style="font-size: 14px;"><i class="fa-solid fa-circle-question me-2"></i>What is this section?</h5>
+            <p class="small text-secondary" id="help-sidebar-meaning" style="line-height: 1.6; font-size: 13px;"></p>
+        </div>
+
+        <div class="mb-4">
+            <h5 class="fw-bold border-bottom border-card pb-2 text-info" style="font-size: 14px;"><i class="fa-solid fa-compass me-2"></i>How to understand it?</h5>
+            <p class="small text-secondary" id="help-sidebar-understand" style="line-height: 1.6; font-size: 13px;"></p>
+        </div>
+
+        <div class="mb-4">
+            <h5 class="fw-bold border-bottom border-card pb-2 text-success" style="font-size: 14px;"><i class="fa-solid fa-lightbulb me-2"></i>How to use it?</h5>
+            <p class="small text-secondary" id="help-sidebar-use" style="line-height: 1.6; font-size: 13px;"></p>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

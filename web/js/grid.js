@@ -42,6 +42,10 @@ function onRowClicked(event) {
     const methSidebar = document.getElementById('methodologySidebar');
     if (methSidebar) methSidebar.classList.remove('open');
     
+    // Close help sidebar if open
+    const helpSidebar = document.getElementById('helpSidebar');
+    if (helpSidebar) helpSidebar.classList.remove('open');
+    
     // Slide open sidebar
     const sidebar = document.getElementById('detailSidebar');
     sidebar.classList.add('open');
