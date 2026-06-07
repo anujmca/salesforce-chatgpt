@@ -51,6 +51,101 @@ FEATURE_NAMES_MAP = {
     'Client Type (New)': 'Client Relationship Status'
 }
 
+def train_gated_classifier(clf_class, clf_params, X_train, y_train, early_codes):
+    from sklearn.model_selection import train_test_split
+    from sklearn.utils.class_weight import compute_sample_weight
+    from sklearn.metrics import f1_score
+    
+    # Split for threshold tuning
+    try:
+        X_tr, X_val, y_tr, y_val = train_test_split(
+            X_train, y_train, test_size=0.2, random_state=42, stratify=y_train
+        )
+    except:
+        X_tr, X_val, y_tr, y_val = train_test_split(
+            X_train, y_train, test_size=0.2, random_state=42
+        )
+        
+    is_early_tr = X_tr['Stage'].isin(early_codes)
+    is_early_val = X_val['Stage'].isin(early_codes)
+    
+    clf_early = clf_class(**clf_params)
+    clf_late = clf_class(**clf_params)
+    
+    # Fit early model on early-stage deals with balanced class weights
+    if is_early_tr.sum() > 0:
+        w_tr_early = compute_sample_weight(class_weight='balanced', y=y_tr[is_early_tr])
+        clf_early.fit(X_tr[is_early_tr], y_tr[is_early_tr], sample_weight=w_tr_early)
+    else:
+        clf_early.fit(X_tr, y_tr)
+        
+    # Fit late model on late-stage deals with balanced class weights
+    if (~is_early_tr).sum() > 0:
+        w_tr_late = compute_sample_weight(class_weight='balanced', y=y_tr[~is_early_tr])
+        clf_late.fit(X_tr[~is_early_tr], y_tr[~is_early_tr], sample_weight=w_tr_late)
+    else:
+        clf_late.fit(X_tr, y_tr)
+        
+    # Grid-search optimal classification threshold on validation split
+    best_thresh = 0.5
+    best_f1 = -1
+    
+    probs_val = np.zeros((len(X_val), 3))
+    if is_early_val.sum() > 0:
+        probs_val[is_early_val] = clf_early.predict_proba(X_val[is_early_val])
+    if (~is_early_val).sum() > 0:
+        probs_val[~is_early_val] = clf_late.predict_proba(X_val[~is_early_val])
+        
+    for th in np.linspace(0.2, 0.6, 9):
+        preds_val = np.zeros(len(X_val), dtype=int)
+        for idx in range(len(X_val)):
+            if probs_val[idx, 0] >= th:
+                preds_val[idx] = 0
+            else:
+                preds_val[idx] = 1 if probs_val[idx, 1] >= probs_val[idx, 2] else 2
+                
+        f1_val = f1_score(y_val, preds_val, average='macro')
+        if f1_val > best_f1:
+            best_f1 = f1_val
+            best_thresh = th
+            
+    # Retrain early/late classifiers on full training subset with optimal threshold
+    clf_early_full = clf_class(**clf_params)
+    clf_late_full = clf_class(**clf_params)
+    
+    is_early_full = X_train['Stage'].isin(early_codes)
+    
+    if is_early_full.sum() > 0:
+        w_full_early = compute_sample_weight(class_weight='balanced', y=y_train[is_early_full])
+        clf_early_full.fit(X_train[is_early_full], y_train[is_early_full], sample_weight=w_full_early)
+    else:
+        clf_early_full.fit(X_train, y_train)
+        
+    if (~is_early_full).sum() > 0:
+        w_full_late = compute_sample_weight(class_weight='balanced', y=y_train[~is_early_full])
+        clf_late_full.fit(X_train[~is_early_full], y_train[~is_early_full], sample_weight=w_full_late)
+    else:
+        clf_late_full.fit(X_train, y_train)
+        
+    return clf_early_full, clf_late_full, best_thresh
+
+def predict_gated(clf_early, clf_late, X_test, is_early_test, threshold):
+    probs = np.zeros((len(X_test), 3))
+    
+    if is_early_test.sum() > 0:
+        probs[is_early_test] = clf_early.predict_proba(X_test[is_early_test])
+    if (~is_early_test).sum() > 0:
+        probs[~is_early_test] = clf_late.predict_proba(X_test[~is_early_test])
+        
+    preds = np.zeros(len(X_test), dtype=int)
+    for idx in range(len(X_test)):
+        if probs[idx, 0] >= threshold:
+            preds[idx] = 0
+        else:
+            preds[idx] = 1 if probs[idx, 1] >= probs[idx, 2] else 2
+            
+    return preds, probs
+
 def clean_and_impute(df, imputer=None, encoder=None):
     df = df.copy()
     if imputer is None:
@@ -87,10 +182,19 @@ def run_predictions():
     
     y_train_outcome = trainable_df['Target_Outcome'].map({'Won': 0, 'Lost': 1, 'Abandoned': 2}).values
     
-    # 2. Train Models
-    print("Training Final XGBoost Models...")
-    clf_outcome = xgb.XGBClassifier(n_estimators=60, max_depth=6, random_state=42, n_jobs=-1, eval_metric='mlogloss')
-    clf_outcome.fit(X_train, y_train_outcome)
+    # 2. Train Models (Gated Pipeline & Class Weighting)
+    print("Training Final XGBoost Models (Gated Pipeline)...")
+    
+    # Stage split parameters
+    stage_list = list(encoder.categories_[0])
+    early_codes = [stage_list.index(s) for s in ['1. Identify Opp', '2. Qualify Opp'] if s in stage_list]
+    
+    is_early_active = X_active['Stage'].isin(early_codes)
+    
+    clf_early, clf_late, threshold = train_gated_classifier(
+        xgb.XGBClassifier, {"n_estimators": 60, "max_depth": 6, "random_state": 42, "n_jobs": -1, "eval_metric": "mlogloss"},
+        X_train, y_train_outcome, early_codes
+    )
     
     # Model 2: Regressors
     win_idx = trainable_df['Target_Outcome'] == 'Won'
@@ -125,9 +229,8 @@ def run_predictions():
     
     # 3. Predict on Active
     print("Running inference...")
-    probs_outcome = clf_outcome.predict_proba(X_active)
-    pred_outcome_idx = probs_outcome.argmax(axis=1)
-    pred_outcome_label = pd.Series(pred_outcome_idx).map({0: 'Won', 1: 'Lost', 2: 'Abandoned'}).values
+    preds_outcome, probs_outcome = predict_gated(clf_early, clf_late, X_active, is_early_active, threshold)
+    pred_outcome_label = pd.Series(preds_outcome).map({0: 'Won', 1: 'Lost', 2: 'Abandoned'}).values
     
     pred_months_win = reg_win.predict(X_active).clip(0, 24)
     pred_months_loss = reg_loss.predict(X_active).clip(0, 24)
@@ -145,8 +248,29 @@ def run_predictions():
     
     # 4. SHAP Drivers
     print("Computing SHAP values...")
-    explainer = shap.TreeExplainer(clf_outcome)
-    shap_values = explainer.shap_values(X_active)
+    explainer_early = shap.TreeExplainer(clf_early)
+    explainer_late = shap.TreeExplainer(clf_late)
+    
+    shap_values = np.zeros((len(X_active), len(ALL_FEATURES)))
+    if is_early_active.sum() > 0:
+        shap_vals_early = explainer_early.shap_values(X_active[is_early_active])
+        if isinstance(shap_vals_early, list):
+            shap_early_c0 = shap_vals_early[0]
+        elif len(shap_vals_early.shape) == 3:
+            shap_early_c0 = shap_vals_early[:, :, 0]
+        else:
+            shap_early_c0 = shap_vals_early
+        shap_values[is_early_active] = shap_early_c0
+        
+    if (~is_early_active).sum() > 0:
+        shap_vals_late = explainer_late.shap_values(X_active[~is_early_active])
+        if isinstance(shap_vals_late, list):
+            shap_late_c0 = shap_vals_late[0]
+        elif len(shap_vals_late.shape) == 3:
+            shap_late_c0 = shap_vals_late[:, :, 0]
+        else:
+            shap_late_c0 = shap_vals_late
+        shap_values[~is_early_active] = shap_late_c0
     
     if isinstance(shap_values, list):
         shap_class_0 = shap_values[0]
@@ -244,8 +368,8 @@ def run_predictions():
     test_dates = sorted(trainable_df['Month Date dt'].unique())[-6:]
     val_set = trainable_df[trainable_df['Month Date dt'].isin(test_dates)].copy()
     val_set_proc, _, _ = clean_and_impute(val_set, imputer, encoder)
-    val_probs = clf_outcome.predict_proba(val_set_proc[ALL_FEATURES])
-    val_preds = val_probs.argmax(axis=1)
+    is_early_val = val_set_proc['Stage'].isin(early_codes)
+    val_preds, val_probs = predict_gated(clf_early, clf_late, val_set_proc[ALL_FEATURES], is_early_val, threshold)
     val_preds_label = pd.Series(val_preds).map({0: 'Won', 1: 'Lost', 2: 'Abandoned'}).values
     val_conf = np.where(val_probs.max(axis=1) >= 0.7, 'High', np.where(val_probs.max(axis=1) >= 0.45, 'Medium', 'Low'))
     
@@ -278,7 +402,7 @@ def run_predictions():
     })
     
     # Global Feature Importance
-    importance = clf_outcome.feature_importances_
+    importance = (clf_early.feature_importances_ + clf_late.feature_importances_) / 2.0
     feat_imp = sorted(zip(ALL_FEATURES, importance), key=lambda x: x[1], reverse=True)
     feat_imp_df = pd.DataFrame(feat_imp, columns=['Feature', 'Importance'])
     feat_imp_df['FeatureName'] = feat_imp_df['Feature'].map(FEATURE_NAMES_MAP).fillna(feat_imp_df['Feature'])

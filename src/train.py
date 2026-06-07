@@ -77,6 +77,110 @@ def evaluate_regressor(model, X_test, y_test):
     rmse = np.sqrt(mean_squared_error(y_test, preds))
     return {"MAE": mae, "RMSE": rmse}
 
+def train_gated_classifier(clf_class, clf_params, X_train, y_train, early_codes):
+    from sklearn.model_selection import train_test_split
+    from sklearn.utils.class_weight import compute_sample_weight
+    
+    # Split for threshold tuning
+    try:
+        X_tr, X_val, y_tr, y_val = train_test_split(
+            X_train, y_train, test_size=0.2, random_state=42, stratify=y_train
+        )
+    except:
+        X_tr, X_val, y_tr, y_val = train_test_split(
+            X_train, y_train, test_size=0.2, random_state=42
+        )
+        
+    is_early_tr = X_tr['Stage'].isin(early_codes)
+    is_early_val = X_val['Stage'].isin(early_codes)
+    
+    clf_early = clf_class(**clf_params)
+    clf_late = clf_class(**clf_params)
+    
+    # Fit early model on early-stage deals with balanced class weights
+    if is_early_tr.sum() > 0:
+        w_tr_early = compute_sample_weight(class_weight='balanced', y=y_tr[is_early_tr])
+        clf_early.fit(X_tr[is_early_tr], y_tr[is_early_tr], sample_weight=w_tr_early)
+    else:
+        clf_early.fit(X_tr, y_tr)
+        
+    # Fit late model on late-stage deals with balanced class weights
+    if (~is_early_tr).sum() > 0:
+        w_tr_late = compute_sample_weight(class_weight='balanced', y=y_tr[~is_early_tr])
+        clf_late.fit(X_tr[~is_early_tr], y_tr[~is_early_tr], sample_weight=w_tr_late)
+    else:
+        clf_late.fit(X_tr, y_tr)
+        
+    # Grid-search optimal classification threshold on validation split
+    best_thresh = 0.5
+    best_f1 = -1
+    
+    probs_val = np.zeros((len(X_val), 3))
+    if is_early_val.sum() > 0:
+        probs_val[is_early_val] = clf_early.predict_proba(X_val[is_early_val])
+    if (~is_early_val).sum() > 0:
+        probs_val[~is_early_val] = clf_late.predict_proba(X_val[~is_early_val])
+        
+    for th in np.linspace(0.2, 0.6, 9):
+        preds_val = np.zeros(len(X_val), dtype=int)
+        for idx in range(len(X_val)):
+            if probs_val[idx, 0] >= th:
+                preds_val[idx] = 0
+            else:
+                preds_val[idx] = 1 if probs_val[idx, 1] >= probs_val[idx, 2] else 2
+                
+        f1_val = f1_score(y_val, preds_val, average='macro')
+        if f1_val > best_f1:
+            best_f1 = f1_val
+            best_thresh = th
+            
+    # Retrain early/late classifiers on full training subset with optimal threshold
+    clf_early_full = clf_class(**clf_params)
+    clf_late_full = clf_class(**clf_params)
+    
+    is_early_full = X_train['Stage'].isin(early_codes)
+    
+    if is_early_full.sum() > 0:
+        w_full_early = compute_sample_weight(class_weight='balanced', y=y_train[is_early_full])
+        clf_early_full.fit(X_train[is_early_full], y_train[is_early_full], sample_weight=w_full_early)
+    else:
+        clf_early_full.fit(X_train, y_train)
+        
+    if (~is_early_full).sum() > 0:
+        w_full_late = compute_sample_weight(class_weight='balanced', y=y_train[~is_early_full])
+        clf_late_full.fit(X_train[~is_early_full], y_train[~is_early_full], sample_weight=w_full_late)
+    else:
+        clf_late_full.fit(X_train, y_train)
+        
+    return clf_early_full, clf_late_full, best_thresh
+
+def predict_gated(clf_early, clf_late, X_test, is_early_test, threshold):
+    probs = np.zeros((len(X_test), 3))
+    
+    if is_early_test.sum() > 0:
+        probs[is_early_test] = clf_early.predict_proba(X_test[is_early_test])
+    if (~is_early_test).sum() > 0:
+        probs[~is_early_test] = clf_late.predict_proba(X_test[~is_early_test])
+        
+    preds = np.zeros(len(X_test), dtype=int)
+    for idx in range(len(X_test)):
+        if probs[idx, 0] >= threshold:
+            preds[idx] = 0
+        else:
+            preds[idx] = 1 if probs[idx, 1] >= probs[idx, 2] else 2
+            
+    return preds, probs
+
+def evaluate_gated_predictions(preds, probs, y_test):
+    try:
+        auc = roc_auc_score(y_test, probs, multi_class='ovr', average='macro')
+    except:
+        auc = 0.5
+        
+    f1 = f1_score(y_test, preds, average='macro')
+    loss = log_loss(y_test, probs)
+    return {"ROC AUC": auc, "F1": f1, "Log Loss": loss}
+
 def train_and_compare_models():
     print("Loading engineered features...")
     df = pd.read_pickle(r"processed_data\features_df.pkl")
@@ -138,25 +242,35 @@ def train_and_compare_models():
         y_train_outcome = train_df['Target_Outcome'].map({'Won': 0, 'Lost': 1, 'Abandoned': 2}).values
         y_test_outcome = test_df['Target_Outcome'].map({'Won': 0, 'Lost': 1, 'Abandoned': 2}).values
         
-        # Model 1: Outcome prediction (Multiclass)
+        # Model 1: Outcome prediction (Multiclass Gated Pipeline)
         # We will train and compare LightGBM, XGBoost, CatBoost, RandomForest, LogisticRegression
-        print("Training Outcome Classifiers...")
-        classifiers = {
-            "LightGBM": lgb.LGBMClassifier(n_estimators=50, max_depth=5, random_state=42, n_jobs=-1, verbose=-1),
-            "XGBoost": xgb.XGBClassifier(n_estimators=50, max_depth=5, random_state=42, n_jobs=-1, eval_metric='mlogloss'),
-            "CatBoost": cb.CatBoostClassifier(iterations=50, depth=5, random_state=42, verbose=0, thread_count=-1),
-            "RandomForest": RandomForestClassifier(n_estimators=50, max_depth=5, random_state=42, n_jobs=-1),
-            "LogisticRegression": LogisticRegression(max_iter=100, random_state=42, n_jobs=-1)
+        print("Training Outcome Classifiers (Gated Pipeline)...")
+        
+        # Get category index codes for early stages
+        stage_list = list(encoder.categories_[0])
+        early_codes = [stage_list.index(s) for s in ['1. Identify Opp', '2. Qualify Opp'] if s in stage_list]
+        
+        is_early_test = X_test['Stage'].isin(early_codes)
+        
+        classifiers_config = {
+            "LightGBM": (lgb.LGBMClassifier, {"n_estimators": 50, "max_depth": 5, "random_state": 42, "n_jobs": -1, "verbose": -1}),
+            "XGBoost": (xgb.XGBClassifier, {"n_estimators": 50, "max_depth": 5, "random_state": 42, "n_jobs": -1, "eval_metric": "mlogloss"}),
+            "CatBoost": (cb.CatBoostClassifier, {"iterations": 50, "depth": 5, "random_state": 42, "verbose": 0, "thread_count": -1}),
+            "RandomForest": (RandomForestClassifier, {"n_estimators": 50, "max_depth": 5, "random_state": 42, "n_jobs": -1}),
+            "LogisticRegression": (LogisticRegression, {"max_iter": 100, "random_state": 42, "n_jobs": -1})
         }
         
         fold_results = {}
-        for algo_name, clf in classifiers.items():
+        for algo_name, (clf_class, clf_params) in classifiers_config.items():
             print(f"  Training {algo_name}...")
             try:
-                clf.fit(X_train, y_train_outcome)
-                metrics = evaluate_classifier(clf, X_test, y_test_outcome, is_multiclass=True)
+                clf_early, clf_late, threshold = train_gated_classifier(
+                    clf_class, clf_params, X_train, y_train_outcome, early_codes
+                )
+                preds, probs = predict_gated(clf_early, clf_late, X_test, is_early_test, threshold)
+                metrics = evaluate_gated_predictions(preds, probs, y_test_outcome)
                 fold_results[algo_name] = metrics
-                print(f"    {algo_name} ROC AUC: {metrics['ROC AUC']:.4f}, F1: {metrics['F1']:.4f}")
+                print(f"    {algo_name} ROC AUC: {metrics['ROC AUC']:.4f}, F1: {metrics['F1']:.4f} (Threshold: {threshold:.2f})")
             except Exception as e:
                 print(f"    Failed {algo_name}: {e}")
                 

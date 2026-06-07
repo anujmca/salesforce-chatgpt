@@ -440,11 +440,17 @@
 
                     <!-- DASHBOARD 7: MODEL METHODOLOGY -->
                     <div class="tab-pane fade" id="pane-methodology" role="tabpanel">
-                        <div class="glass-card p-4 mb-4">
-                            <h4 class="fw-bold mb-2"><i class="fa-solid fa-graduation-cap me-2 text-primary"></i>Model Methodology & Analysis Pipeline</h4>
-                            <p class="text-secondary m-0">
-                                This section provides a detailed view of the end-to-end data analysis, pipeline orchestration, chronological cross-validation folds, and algorithm comparisons used to build the champion predictive engine.
-                            </p>
+                        <div class="glass-card p-4 mb-4 d-flex justify-content-between align-items-start" id="methodologyHeaderCard">
+                            <div>
+                                <h4 class="fw-bold mb-2"><i class="fa-solid fa-graduation-cap me-2 text-primary"></i>Model Methodology & Analysis Pipeline</h4>
+                                <p class="text-secondary m-0">
+                                    This section provides a detailed view of the end-to-end data analysis, pipeline orchestration, chronological cross-validation folds, and algorithm comparisons used to build the champion predictive engine.
+                                </p>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm d-flex align-items-center gap-2" id="printMethodologyBtn" style="flex-shrink: 0; padding: 8px 14px;">
+                                <i class="fa-solid fa-file-pdf fs-6"></i>
+                                <span>Export PDF</span>
+                            </button>
                         </div>
 
                         <!-- 1. Pictorial Data Pipeline Flowchart -->
@@ -508,6 +514,9 @@
                                 <p class="node-desc">Selects final XGBoost champion (Validation ROC AUC: 0.8372). Runs SHAP explainer to calculate local feature contribution drivers for every scored opportunity.</p>
                             </div>
                         </div>
+
+                        <!-- Page break before splits visualization -->
+                        <div class="page-break"></div>
 
                         <!-- 2. Chronological Splits Vis and Comparison Table -->
                         <div class="row">
@@ -638,6 +647,9 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Page break before Explainability Framework -->
+                        <div class="page-break"></div>
 
                         <!-- 3. Key Mathematical Framework and SHAP explanation -->
                         <div class="glass-card p-4">

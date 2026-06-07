@@ -440,4 +440,175 @@ body {
     transform: scale(1.15);
 }
 
+/* Print Specific Styles for PDF Export */
+@media print {
+    /* Hide everything that isn't the methodology content */
+    nav,
+    .col-lg-3, /* Sidebar Filters */
+    #printMethodologyBtn,
+    .detail-sidebar,
+    #fullscreenToggle,
+    #themeToggle,
+    .badge,
+    button[data-bs-toggle="tab"],
+    .help-trigger {
+        display: none !important;
+    }
+
+    /* Force the content area to span full width */
+    .col-lg-9, .col-md-8 {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    /* Adjust page backgrounds and text for ink-friendly printing */
+    body {
+        background: #ffffff !important;
+        color: #000000 !important;
+        font-family: 'Outfit', sans-serif !important;
+        counter-reset: page;
+        font-size: 11px !important;
+    }
+
+    /* Page break styling */
+    .page-break {
+        page-break-before: always !important;
+        break-before: page !important;
+    }
+
+    /* Reset glassmorphism styles during print */
+    .glass-card {
+        background: #ffffff !important;
+        border: 1px solid #dee2e6 !important;
+        color: #212529 !important;
+        box-shadow: none !important;
+        backdrop-filter: none !important;
+        margin-bottom: 20px !important;
+        page-break-inside: avoid;
+    }
+
+    /* Text colors and font sizes scaled down */
+    .text-secondary, .text-muted, p, span, li, td, th {
+        color: #495057 !important;
+        font-size: 11px !important;
+        line-height: 1.4 !important;
+    }
+    
+    h4 {
+        color: #000000 !important;
+        font-size: 16px !important;
+    }
+
+    h5 {
+        color: #000000 !important;
+        font-size: 13px !important;
+    }
+
+    h6 {
+        color: #000000 !important;
+        font-size: 11px !important;
+    }
+
+    .fw-bold, td.fw-bold {
+        color: #000000 !important;
+        font-weight: 700 !important;
+    }
+
+    .node-desc {
+        font-size: 10px !important;
+    }
+
+    .small, small {
+        font-size: 9px !important;
+    }
+
+    /* Pipeline Flow Nodes */
+    .pipeline-flow-container {
+        display: block !important;
+    }
+
+    .pipeline-node {
+        background: #f8f9fa !important;
+        border: 1px solid #dee2e6 !important;
+        color: #212529 !important;
+        margin-bottom: 15px !important;
+        page-break-inside: avoid;
+    }
+
+    .node-title {
+        color: #000000 !important;
+    }
+
+    .node-icon-wrapper {
+        background: #e9ecef !important;
+        color: #495057 !important;
+    }
+
+    /* Fold Bar Colors for print */
+    .fold-visualizer {
+        background: #f8f9fa !important;
+        border: 1px solid #dee2e6 !important;
+    }
+
+    .fold-train {
+        background: #cfe2ff !important;
+        color: #084298 !important;
+    }
+
+    .fold-test {
+        background: #d1e7dd !important;
+        color: #0f5132 !important;
+    }
+
+    .fold-predict {
+        background: #fff3cd !important;
+        color: #664d03 !important;
+    }
+
+    /* Table styling for print */
+    .methodology-table th {
+        background: #e9ecef !important;
+        border-bottom: 2px solid #dee2e6 !important;
+        color: #212529 !important;
+    }
+
+    .methodology-table td {
+        border-bottom: 1px solid #dee2e6 !important;
+        color: #212529 !important;
+    }
+
+    .champion-row {
+        background: #d1e7dd !important;
+    }
+
+    /* Fix page 3 text alignment and bootstrap grid columns */
+    #pane-methodology .col-md-7,
+    #pane-methodology .col-md-5 {
+        width: 100% !important;
+        float: none !important;
+        display: block !important;
+        padding: 0 !important;
+        margin-bottom: 20px !important;
+    }
+    
+    #pane-methodology .row {
+        display: block !important;
+    }
+    
+    /* Ensure the text container inside page 3 aligns cleanly */
+    #pane-methodology .col-md-5 .bg-dark-subtle {
+        background: #f8f9fa !important;
+        border: 1px solid #dee2e6 !important;
+        height: auto !important;
+        padding: 15px !important;
+        display: block !important;
+    }
+}
+
+@page {
+    size: auto;
+    margin: 12mm 8mm 18mm 8mm;
+}
+
 

@@ -1,122 +1,122 @@
 [
   {
     "Feature":"Comp\/SS",
-    "Importance":0.34892869,
+    "Importance":0.4395960867,
     "FeatureName":"Competitive Bid Status"
   },
   {
-    "Feature":"Stage",
-    "Importance":0.2018308938,
-    "FeatureName":"Current stage position"
-  },
-  {
-    "Feature":"Num_Slippages",
-    "Importance":0.0854367241,
-    "FeatureName":"Multiple Forecast Slippages"
-  },
-  {
     "Feature":"Days_In_Current_Stage",
-    "Importance":0.0697105452,
+    "Importance":0.0784869343,
     "FeatureName":"Stuck in Stage"
   },
   {
+    "Feature":"Num_Slippages",
+    "Importance":0.0606241152,
+    "FeatureName":"Multiple Forecast Slippages"
+  },
+  {
+    "Feature":"Stage",
+    "Importance":0.0476215705,
+    "FeatureName":"Current stage position"
+  },
+  {
     "Feature":"Service Group",
-    "Importance":0.0309073832,
+    "Importance":0.0342758261,
     "FeatureName":"Service Group Department"
   },
   {
-    "Feature":"client_loss_rate",
-    "Importance":0.028009532,
-    "FeatureName":"Poor Historical Client Win Rate"
-  },
-  {
-    "Feature":"Amount_Growth_Trend",
-    "Importance":0.0202613641,
-    "FeatureName":"Increasing Deal Value"
-  },
-  {
     "Feature":"Client Type (New)",
-    "Importance":0.0193542689,
+    "Importance":0.0316727757,
     "FeatureName":"Client Relationship Status"
   },
   {
-    "Feature":"Amount_Decline_Trend",
-    "Importance":0.0183695257,
-    "FeatureName":"Declining Deal Value"
-  },
-  {
-    "Feature":"Sub-Service",
-    "Importance":0.0170162339,
-    "FeatureName":"Sub-Service Offering"
-  },
-  {
-    "Feature":"Region",
-    "Importance":0.0167532563,
-    "FeatureName":"Geographic Region"
-  },
-  {
-    "Feature":"client_win_rate",
-    "Importance":0.0156058529,
-    "FeatureName":"Strong Historical Client Win Rate"
-  },
-  {
-    "Feature":"Country\/Entity",
-    "Importance":0.0155080836,
-    "FeatureName":"Country Entity Location"
-  },
-  {
-    "Feature":"Business Unit",
-    "Importance":0.0138036236,
-    "FeatureName":"Business Unit Group"
+    "Feature":"client_loss_rate",
+    "Importance":0.0258531291,
+    "FeatureName":"Poor Historical Client Win Rate"
   },
   {
     "Feature":"Weighted_Amount",
-    "Importance":0.0132998209,
+    "Importance":0.0223671198,
     "FeatureName":"Large Weighted Value"
   },
   {
+    "Feature":"Country\/Entity",
+    "Importance":0.0217117555,
+    "FeatureName":"Country Entity Location"
+  },
+  {
+    "Feature":"Sub-Service",
+    "Importance":0.0201889742,
+    "FeatureName":"Sub-Service Offering"
+  },
+  {
+    "Feature":"Business Unit",
+    "Importance":0.0196712557,
+    "FeatureName":"Business Unit Group"
+  },
+  {
+    "Feature":"Region",
+    "Importance":0.0195013471,
+    "FeatureName":"Geographic Region"
+  },
+  {
     "Feature":"Partner",
-    "Importance":0.0115606552,
+    "Importance":0.0189434942,
     "FeatureName":"Assigned Partner Influence"
   },
   {
-    "Feature":"Num_Appearances",
-    "Importance":0.0110263815,
-    "FeatureName":"High Snapshot Appearances"
-  },
-  {
-    "Feature":"Core Industry",
-    "Importance":0.0109671736,
-    "FeatureName":"Core Client Industry"
+    "Feature":"Amount_Growth_Trend",
+    "Importance":0.0184742585,
+    "FeatureName":"Increasing Deal Value"
   },
   {
     "Feature":"Unweighted_Amount",
-    "Importance":0.0104300575,
+    "Importance":0.0177600458,
     "FeatureName":"Large Unweighted Value"
   },
   {
+    "Feature":"client_win_rate",
+    "Importance":0.0174295176,
+    "FeatureName":"Strong Historical Client Win Rate"
+  },
+  {
     "Feature":"Detail Industry",
-    "Importance":0.0103550293,
+    "Importance":0.017343238,
     "FeatureName":"Specific Industry Segment"
   },
   {
+    "Feature":"Core Industry",
+    "Importance":0.0167197771,
+    "FeatureName":"Core Client Industry"
+  },
+  {
     "Feature":"Num_Stage_Changes",
-    "Importance":0.009902454,
+    "Importance":0.0157708433,
     "FeatureName":"Frequent Stage Transitions"
   },
   {
+    "Feature":"Num_Appearances",
+    "Importance":0.0152325239,
+    "FeatureName":"High Snapshot Appearances"
+  },
+  {
     "Feature":"client_avg_size",
-    "Importance":0.0092644561,
+    "Importance":0.0146788862,
     "FeatureName":"Large Historical Client Deal Size"
   },
   {
-    "Feature":"Opp_Age_Days",
-    "Importance":0.0063720858,
-    "FeatureName":"Long Deal Age"
+    "Feature":"Amount_Decline_Trend",
+    "Importance":0.0118297208,
+    "FeatureName":"Declining Deal Value"
   },
   {
     "Feature":"Stage_Velocity",
-    "Importance":0.0053259707,
+    "Importance":0.0079318769,
     "FeatureName":"Fast Stage Progression"
+  },
+  {
+    "Feature":"Opp_Age_Days",
+    "Importance":0.0063149058,
+    "FeatureName":"Long Deal Age"
   }
 ]

@@ -226,6 +226,14 @@ function updateKPIs() {
 
 // Event Listeners setup
 function setupEventListeners() {
+    // Print Methodology button
+    const printBtn = document.getElementById('printMethodologyBtn');
+    if (printBtn) {
+        printBtn.addEventListener('click', () => {
+            window.print();
+        });
+    }
+
     // Theme Switcher
     document.getElementById('themeToggle').addEventListener('click', () => {
         setTheme(AppState.theme === 'dark' ? 'light' : 'dark');

@@ -1,122 +1,122 @@
 [
   {
     "Feature":"Comp\/SS",
-    "MeanSHAP":0.4097328782,
+    "MeanSHAP":0.6044425196,
     "FeatureName":"Competitive Bid Status"
   },
   {
-    "Feature":"Stage",
-    "MeanSHAP":0.2803063095,
-    "FeatureName":"Current stage position"
-  },
-  {
     "Feature":"Num_Slippages",
-    "MeanSHAP":0.1792330742,
+    "MeanSHAP":0.2049466967,
     "FeatureName":"Multiple Forecast Slippages"
   },
   {
     "Feature":"Client Type (New)",
-    "MeanSHAP":0.1198325306,
+    "MeanSHAP":0.1508294631,
     "FeatureName":"Client Relationship Status"
   },
   {
-    "Feature":"Days_In_Current_Stage",
-    "MeanSHAP":0.1143684462,
-    "FeatureName":"Stuck in Stage"
-  },
-  {
     "Feature":"Service Group",
-    "MeanSHAP":0.0813228115,
+    "MeanSHAP":0.1006510975,
     "FeatureName":"Service Group Department"
   },
   {
-    "Feature":"Amount_Growth_Trend",
-    "MeanSHAP":0.0795388147,
-    "FeatureName":"Increasing Deal Value"
-  },
-  {
     "Feature":"Sub-Service",
-    "MeanSHAP":0.0769595727,
+    "MeanSHAP":0.0931110444,
     "FeatureName":"Sub-Service Offering"
   },
   {
-    "Feature":"client_loss_rate",
-    "MeanSHAP":0.0645853952,
-    "FeatureName":"Poor Historical Client Win Rate"
-  },
-  {
     "Feature":"Region",
-    "MeanSHAP":0.0636947602,
+    "MeanSHAP":0.0803605281,
     "FeatureName":"Geographic Region"
   },
   {
+    "Feature":"Days_In_Current_Stage",
+    "MeanSHAP":0.0803384329,
+    "FeatureName":"Stuck in Stage"
+  },
+  {
     "Feature":"Partner",
-    "MeanSHAP":0.0571646467,
+    "MeanSHAP":0.0785127298,
     "FeatureName":"Assigned Partner Influence"
   },
   {
-    "Feature":"Detail Industry",
-    "MeanSHAP":0.0458965898,
-    "FeatureName":"Specific Industry Segment"
-  },
-  {
-    "Feature":"Num_Appearances",
-    "MeanSHAP":0.0455965549,
-    "FeatureName":"High Snapshot Appearances"
-  },
-  {
-    "Feature":"Unweighted_Amount",
-    "MeanSHAP":0.0426025428,
-    "FeatureName":"Large Unweighted Value"
-  },
-  {
-    "Feature":"Weighted_Amount",
-    "MeanSHAP":0.0397140011,
-    "FeatureName":"Large Weighted Value"
-  },
-  {
     "Feature":"client_win_rate",
-    "MeanSHAP":0.0388086773,
+    "MeanSHAP":0.0734274257,
     "FeatureName":"Strong Historical Client Win Rate"
   },
   {
-    "Feature":"Country\/Entity",
-    "MeanSHAP":0.0371083915,
-    "FeatureName":"Country Entity Location"
+    "Feature":"Detail Industry",
+    "MeanSHAP":0.0719101776,
+    "FeatureName":"Specific Industry Segment"
+  },
+  {
+    "Feature":"client_loss_rate",
+    "MeanSHAP":0.0708182804,
+    "FeatureName":"Poor Historical Client Win Rate"
   },
   {
     "Feature":"Business Unit",
-    "MeanSHAP":0.0297669917,
+    "MeanSHAP":0.0640056301,
     "FeatureName":"Business Unit Group"
   },
   {
+    "Feature":"Country\/Entity",
+    "MeanSHAP":0.0638810706,
+    "FeatureName":"Country Entity Location"
+  },
+  {
+    "Feature":"Weighted_Amount",
+    "MeanSHAP":0.0624267997,
+    "FeatureName":"Large Weighted Value"
+  },
+  {
+    "Feature":"Stage",
+    "MeanSHAP":0.0526742262,
+    "FeatureName":"Current stage position"
+  },
+  {
     "Feature":"client_avg_size",
-    "MeanSHAP":0.0278548244,
+    "MeanSHAP":0.0406079384,
     "FeatureName":"Large Historical Client Deal Size"
   },
   {
-    "Feature":"Amount_Decline_Trend",
-    "MeanSHAP":0.020803161,
-    "FeatureName":"Declining Deal Value"
+    "Feature":"Amount_Growth_Trend",
+    "MeanSHAP":0.0364813606,
+    "FeatureName":"Increasing Deal Value"
+  },
+  {
+    "Feature":"Unweighted_Amount",
+    "MeanSHAP":0.0345576458,
+    "FeatureName":"Large Unweighted Value"
   },
   {
     "Feature":"Core Industry",
-    "MeanSHAP":0.0171839949,
+    "MeanSHAP":0.0341445151,
     "FeatureName":"Core Client Industry"
   },
   {
+    "Feature":"Num_Appearances",
+    "MeanSHAP":0.0315146575,
+    "FeatureName":"High Snapshot Appearances"
+  },
+  {
+    "Feature":"Amount_Decline_Trend",
+    "MeanSHAP":0.0172670532,
+    "FeatureName":"Declining Deal Value"
+  },
+  {
     "Feature":"Num_Stage_Changes",
-    "MeanSHAP":0.0095446119,
+    "MeanSHAP":0.0123261153,
     "FeatureName":"Frequent Stage Transitions"
   },
   {
     "Feature":"Stage_Velocity",
-    "MeanSHAP":0.0000616708,
+    "MeanSHAP":0.0004836498,
     "FeatureName":"Fast Stage Progression"
   },
   {
     "Feature":"Opp_Age_Days",
-    "MeanSHAP":0.0,
+    "MeanSHAP":0.0000789192,
     "FeatureName":"Long Deal Age"
   }
 ]
