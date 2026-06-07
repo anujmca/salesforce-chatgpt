@@ -1,0 +1,122 @@
+[
+  {
+    "Feature":"Comp\/SS",
+    "Importance":0.34892869,
+    "FeatureName":"Competitive Bid Status"
+  },
+  {
+    "Feature":"Stage",
+    "Importance":0.2018308938,
+    "FeatureName":"Current stage position"
+  },
+  {
+    "Feature":"Num_Slippages",
+    "Importance":0.0854367241,
+    "FeatureName":"Multiple Forecast Slippages"
+  },
+  {
+    "Feature":"Days_In_Current_Stage",
+    "Importance":0.0697105452,
+    "FeatureName":"Stuck in Stage"
+  },
+  {
+    "Feature":"Service Group",
+    "Importance":0.0309073832,
+    "FeatureName":"Service Group Department"
+  },
+  {
+    "Feature":"client_loss_rate",
+    "Importance":0.028009532,
+    "FeatureName":"Poor Historical Client Win Rate"
+  },
+  {
+    "Feature":"Amount_Growth_Trend",
+    "Importance":0.0202613641,
+    "FeatureName":"Increasing Deal Value"
+  },
+  {
+    "Feature":"Client Type (New)",
+    "Importance":0.0193542689,
+    "FeatureName":"Client Relationship Status"
+  },
+  {
+    "Feature":"Amount_Decline_Trend",
+    "Importance":0.0183695257,
+    "FeatureName":"Declining Deal Value"
+  },
+  {
+    "Feature":"Sub-Service",
+    "Importance":0.0170162339,
+    "FeatureName":"Sub-Service Offering"
+  },
+  {
+    "Feature":"Region",
+    "Importance":0.0167532563,
+    "FeatureName":"Geographic Region"
+  },
+  {
+    "Feature":"client_win_rate",
+    "Importance":0.0156058529,
+    "FeatureName":"Strong Historical Client Win Rate"
+  },
+  {
+    "Feature":"Country\/Entity",
+    "Importance":0.0155080836,
+    "FeatureName":"Country Entity Location"
+  },
+  {
+    "Feature":"Business Unit",
+    "Importance":0.0138036236,
+    "FeatureName":"Business Unit Group"
+  },
+  {
+    "Feature":"Weighted_Amount",
+    "Importance":0.0132998209,
+    "FeatureName":"Large Weighted Value"
+  },
+  {
+    "Feature":"Partner",
+    "Importance":0.0115606552,
+    "FeatureName":"Assigned Partner Influence"
+  },
+  {
+    "Feature":"Num_Appearances",
+    "Importance":0.0110263815,
+    "FeatureName":"High Snapshot Appearances"
+  },
+  {
+    "Feature":"Core Industry",
+    "Importance":0.0109671736,
+    "FeatureName":"Core Client Industry"
+  },
+  {
+    "Feature":"Unweighted_Amount",
+    "Importance":0.0104300575,
+    "FeatureName":"Large Unweighted Value"
+  },
+  {
+    "Feature":"Detail Industry",
+    "Importance":0.0103550293,
+    "FeatureName":"Specific Industry Segment"
+  },
+  {
+    "Feature":"Num_Stage_Changes",
+    "Importance":0.009902454,
+    "FeatureName":"Frequent Stage Transitions"
+  },
+  {
+    "Feature":"client_avg_size",
+    "Importance":0.0092644561,
+    "FeatureName":"Large Historical Client Deal Size"
+  },
+  {
+    "Feature":"Opp_Age_Days",
+    "Importance":0.0063720858,
+    "FeatureName":"Long Deal Age"
+  },
+  {
+    "Feature":"Stage_Velocity",
+    "Importance":0.0053259707,
+    "FeatureName":"Fast Stage Progression"
+  }
+]

@@ -1,0 +1,4502 @@
+[
+  {
+    "Opportunity":22492,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":22492,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":22492,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":22492,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":22492,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":22492,
+    "Snapshot Date":"2022-11-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":22492,
+    "Snapshot Date":"2022-12-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":22492,
+    "Snapshot Date":"2023-01-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":217,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":22492,
+    "Snapshot Date":"2023-02-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"7. Abandoned",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2022-11-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2022-12-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2023-01-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":217,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2023-02-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2023-03-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":273,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2023-04-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":308,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2023-05-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":336,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2023-06-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":364,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2023-07-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":399,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2023-08-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":427,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2023-09-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":455,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2023-10-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":490,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2023-11-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":518,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2023-12-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":546,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2024-01-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":581,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2024-02-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":609,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2024-03-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":637,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2024-04-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":671,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2024-05-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":699,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2024-05-31",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":727,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2024-07-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":762,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2024-08-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":790,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2024-08-30",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":818,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2024-10-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":853,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2024-11-01",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":881,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2024-11-29",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":909,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2025-01-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":944,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2025-01-31",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":972,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2025-02-28",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1000,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2025-04-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1038,
+    "Stage Velocity":2.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2025-05-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1063,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2025-05-30",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1091,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2025-07-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1126,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2025-08-01",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1154,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2025-08-29",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1182,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2025-10-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1217,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2025-10-31",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1245,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2025-11-28",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1273,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2026-01-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1311,
+    "Stage Velocity":2.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2026-01-30",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1336,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2026-02-27",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1364,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":28059,
+    "Snapshot Date":"2026-04-10",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1406,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2022-11-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2022-12-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2023-01-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":217,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2023-02-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2023-03-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":273,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2023-04-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":308,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2023-05-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":336,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2023-06-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":364,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2023-07-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":399,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2023-08-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":427,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2023-09-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":455,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2023-10-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":490,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2023-11-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":518,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2023-12-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":546,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2024-01-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":581,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2024-02-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":609,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2024-03-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":637,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2024-04-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":671,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2024-05-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":699,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2024-05-31",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":727,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2024-07-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":762,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2024-08-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":790,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2024-08-30",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":818,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2024-10-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":853,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2024-11-01",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":881,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2024-11-29",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":909,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2025-01-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":944,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2025-01-31",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":972,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2025-02-28",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1000,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2025-04-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1038,
+    "Stage Velocity":2.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2025-05-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1063,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2025-05-30",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1091,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2025-07-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1126,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2025-08-01",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1154,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2025-08-29",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1182,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2025-10-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1217,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2025-10-31",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1245,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2025-11-28",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1273,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2026-01-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1311,
+    "Stage Velocity":2.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2026-01-30",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1336,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2026-02-27",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1364,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":44691,
+    "Snapshot Date":"2026-04-10",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1406,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2022-11-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2022-12-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2023-01-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":217,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2023-02-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2023-03-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":273,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2023-04-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":308,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2023-05-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":336,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2023-06-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":364,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2023-07-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":399,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2023-08-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":427,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2023-09-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":455,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2023-10-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":490,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2023-11-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":518,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2023-12-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":546,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2024-01-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":581,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2024-02-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":609,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2024-03-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":637,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2024-04-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":671,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2024-05-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":699,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2024-05-31",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":727,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2024-07-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":762,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2024-08-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":790,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2024-08-30",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":818,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2024-10-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":853,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2024-11-01",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":881,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2024-11-29",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":909,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2025-01-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":944,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2025-01-31",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":972,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2025-02-28",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1000,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2025-04-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1038,
+    "Stage Velocity":2.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2025-05-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1063,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2025-05-30",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1091,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2025-07-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1126,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2025-08-01",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1154,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2025-08-29",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1182,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2025-10-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1217,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2025-10-31",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1245,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2025-11-28",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1273,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2026-01-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1311,
+    "Stage Velocity":2.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2026-01-30",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1336,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2026-02-27",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1364,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":47866,
+    "Snapshot Date":"2026-04-10",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1406,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2022-11-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2022-12-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2023-01-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":217,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2023-02-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2023-03-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":273,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2023-04-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":308,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2023-05-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":336,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2023-06-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":364,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2023-07-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":399,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2023-08-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":427,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2023-09-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":455,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2023-10-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":490,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2023-11-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":518,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2023-12-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":546,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2024-01-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":581,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2024-02-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":609,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2024-03-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":637,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2024-04-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":671,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2024-05-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":699,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2024-05-31",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":727,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2024-07-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":762,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2024-08-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":790,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2024-08-30",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":818,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2024-10-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":853,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2024-11-01",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":881,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2024-11-29",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":909,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2025-01-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":944,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2025-01-31",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":972,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2025-02-28",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1000,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2025-04-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1038,
+    "Stage Velocity":2.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2025-05-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1063,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2025-05-30",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1091,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2025-07-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1126,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2025-08-01",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1154,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2025-08-29",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1182,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2025-10-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1217,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2025-10-31",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1245,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2025-11-28",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1273,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2026-01-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1311,
+    "Stage Velocity":2.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2026-01-30",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1336,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2026-02-27",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1364,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":58479,
+    "Snapshot Date":"2026-04-10",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":1406,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":72574,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":72574,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":72574,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":72574,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":72574,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":72574,
+    "Snapshot Date":"2022-11-05",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":72574,
+    "Snapshot Date":"2022-12-03",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":72574,
+    "Snapshot Date":"2023-01-07",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":217,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":72574,
+    "Snapshot Date":"2023-02-04",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":72574,
+    "Snapshot Date":"2023-03-04",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":273,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":72574,
+    "Snapshot Date":"2023-04-08",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":308,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":72574,
+    "Snapshot Date":"2023-05-06",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":336,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":72574,
+    "Snapshot Date":"2023-06-03",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":364,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":72574,
+    "Snapshot Date":"2023-07-08",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"7. Abandoned",
+    "Days In Stage":399,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":81480,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":81480,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":81480,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":81480,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":81480,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"7. Abandoned",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":83821,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":83821,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":83821,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":83821,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":83821,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83821,
+    "Snapshot Date":"2022-11-05",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83821,
+    "Snapshot Date":"2022-12-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83821,
+    "Snapshot Date":"2023-01-07",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":217,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83821,
+    "Snapshot Date":"2023-02-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83821,
+    "Snapshot Date":"2023-03-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":273,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83821,
+    "Snapshot Date":"2023-04-08",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":308,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83821,
+    "Snapshot Date":"2023-05-06",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":336,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83821,
+    "Snapshot Date":"2023-06-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"7. Abandoned",
+    "Days In Stage":364,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83827,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83827,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83827,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83827,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83827,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83827,
+    "Snapshot Date":"2022-11-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83827,
+    "Snapshot Date":"2022-12-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83827,
+    "Snapshot Date":"2023-01-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":217,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83827,
+    "Snapshot Date":"2023-02-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83827,
+    "Snapshot Date":"2023-03-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":273,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83827,
+    "Snapshot Date":"2023-04-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":308,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":83827,
+    "Snapshot Date":"2023-05-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"7. Abandoned",
+    "Days In Stage":336,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2022-11-05",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2022-12-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":28,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2023-01-07",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2023-02-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2023-03-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":119,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2023-04-08",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2023-05-06",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2023-06-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":210,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2023-07-08",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2023-08-05",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":273,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2023-09-02",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":301,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2023-10-07",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":336,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2023-11-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":364,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2023-12-02",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":392,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2024-01-06",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":427,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2024-02-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":455,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2024-03-02",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":483,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2024-04-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2024-05-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":28,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2024-05-31",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":56,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2024-07-05",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":109683,
+    "Snapshot Date":"2024-08-02",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"7. Abandoned",
+    "Days In Stage":28,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":116163,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"5. Won",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":132115,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"7. Abandoned",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2022-11-05",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2022-12-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2023-01-07",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":217,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2023-02-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2023-03-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":273,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2023-04-08",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":308,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2023-05-06",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":336,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2023-06-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":364,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2023-07-08",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":399,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2023-08-05",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":427,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2023-09-02",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":455,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2023-10-07",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":490,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2023-11-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":518,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2023-12-02",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":546,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2024-01-06",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":581,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2024-02-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":609,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2024-03-02",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":637,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2024-04-05",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":671,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2024-05-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":699,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2024-05-31",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":727,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2024-07-05",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":762,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2024-08-02",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":790,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2024-08-30",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":818,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2024-10-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":853,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2024-11-01",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":881,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2024-11-29",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":909,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":135666,
+    "Snapshot Date":"2025-01-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"7. Abandoned",
+    "Days In Stage":944,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":136748,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":136748,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":136748,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"7. Abandoned",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":137047,
+    "Snapshot Date":"2025-07-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":137047,
+    "Snapshot Date":"2025-08-01",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":28,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":137047,
+    "Snapshot Date":"2025-08-29",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":56,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":137047,
+    "Snapshot Date":"2025-10-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":137047,
+    "Snapshot Date":"2025-10-31",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":119,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":137047,
+    "Snapshot Date":"2025-11-28",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":147,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":137047,
+    "Snapshot Date":"2026-01-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":185,
+    "Stage Velocity":2.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":137047,
+    "Snapshot Date":"2026-01-30",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":210,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":137047,
+    "Snapshot Date":"2026-02-27",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":238,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":137047,
+    "Snapshot Date":"2026-04-10",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":280,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":160573,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":160573,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":160573,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":160573,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":160573,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":160573,
+    "Snapshot Date":"2022-11-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":160573,
+    "Snapshot Date":"2022-12-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":160573,
+    "Snapshot Date":"2023-01-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":217,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":160573,
+    "Snapshot Date":"2023-02-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":160573,
+    "Snapshot Date":"2023-03-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":273,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":160573,
+    "Snapshot Date":"2023-04-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"7. Abandoned",
+    "Days In Stage":308,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":188250,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":188250,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":188250,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":188250,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":188250,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":188250,
+    "Snapshot Date":"2022-11-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":188250,
+    "Snapshot Date":"2022-12-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":188250,
+    "Snapshot Date":"2023-01-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":217,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":188250,
+    "Snapshot Date":"2023-02-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":188250,
+    "Snapshot Date":"2023-03-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":273,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":188250,
+    "Snapshot Date":"2023-04-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":308,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":188250,
+    "Snapshot Date":"2023-05-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":336,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":188250,
+    "Snapshot Date":"2023-06-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":364,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":188250,
+    "Snapshot Date":"2023-07-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"7. Abandoned",
+    "Days In Stage":399,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":189235,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":189235,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"7. Abandoned",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2022-11-05",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2022-12-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2023-01-07",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":217,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2023-02-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2023-03-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":273,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2023-04-08",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":308,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2023-05-06",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"4. Issue Proposal",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2023-06-03",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"4. Issue Proposal",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2023-07-08",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"4. Issue Proposal",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2023-08-05",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"4. Issue Proposal",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2023-09-02",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"4. Issue Proposal",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2023-10-07",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"4. Issue Proposal",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2023-11-04",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"4. Issue Proposal",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2023-12-02",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"4. Issue Proposal",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2024-01-06",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"4. Issue Proposal",
+    "Days In Stage":217,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2024-02-03",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"4. Issue Proposal",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2024-03-02",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"4. Issue Proposal",
+    "Days In Stage":273,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2024-04-05",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":307,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2024-05-03",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2024-05-31",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"4. Issue Proposal",
+    "Days In Stage":28,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2024-07-05",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"4. Issue Proposal",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2024-08-02",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"4. Issue Proposal",
+    "Days In Stage":28,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2024-08-30",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"4. Issue Proposal",
+    "Days In Stage":56,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2024-10-04",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"4. Issue Proposal",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2024-11-01",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"4. Issue Proposal",
+    "Days In Stage":119,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":219221,
+    "Snapshot Date":"2024-11-29",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"5. Won",
+    "Days In Stage":147,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":222192,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":222192,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":222192,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":222192,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":222192,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":222192,
+    "Snapshot Date":"2022-11-05",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":222192,
+    "Snapshot Date":"2022-12-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":222192,
+    "Snapshot Date":"2023-01-07",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"7. Abandoned",
+    "Days In Stage":217,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2022-11-05",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2022-12-03",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2023-01-07",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":217,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2023-02-04",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2023-03-04",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":273,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2023-04-08",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":308,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2023-05-06",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":336,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2023-06-03",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":364,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2023-07-08",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":399,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2023-08-05",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":427,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2023-09-02",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":455,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2023-10-07",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":490,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2023-11-04",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":518,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2023-12-02",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":546,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2024-01-06",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":581,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2024-02-03",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":609,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2024-03-02",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":637,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2024-04-05",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":671,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2024-05-03",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":699,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2024-05-31",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":727,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2024-07-05",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":762,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2024-08-02",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":790,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2024-08-30",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2024-10-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2024-11-01",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2024-11-29",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2025-01-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2025-01-31",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2025-02-28",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2025-04-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":220,
+    "Stage Velocity":1.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2025-05-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2025-05-30",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":273,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2025-07-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":308,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2025-08-01",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":336,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2025-08-29",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":364,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2025-10-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":399,
+    "Stage Velocity":0.0,
+    "Slipped":1
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2025-10-31",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":427,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2025-11-28",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":455,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":250361,
+    "Snapshot Date":"2026-01-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"7. Abandoned",
+    "Days In Stage":493,
+    "Stage Velocity":1.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":252728,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":252728,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":252728,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":252728,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":252728,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":252728,
+    "Snapshot Date":"2022-11-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":252728,
+    "Snapshot Date":"2022-12-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":252728,
+    "Snapshot Date":"2023-01-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":217,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":252728,
+    "Snapshot Date":"2023-02-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":252728,
+    "Snapshot Date":"2023-03-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"7. Abandoned",
+    "Days In Stage":273,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2022-11-05",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2022-12-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2023-01-07",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":217,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2023-02-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2023-03-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":273,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2023-04-08",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":308,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2023-05-06",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":336,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2023-06-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":364,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2023-07-08",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":399,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2023-08-05",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":427,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2023-09-02",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":455,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2023-10-07",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":490,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2023-11-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":518,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2023-12-02",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":546,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2024-01-06",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":581,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2024-02-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":609,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2024-03-02",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":637,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2024-04-05",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":671,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2024-05-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":699,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2024-05-31",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":727,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2024-07-05",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":762,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2024-08-02",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":790,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2024-08-30",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":818,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2024-10-04",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":853,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2024-11-01",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":881,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2024-11-29",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":909,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2025-01-03",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":944,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2025-01-31",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":972,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2025-02-28",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":1000,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2025-04-07",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":1038,
+    "Stage Velocity":2.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2025-05-02",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"2. Qualify Opp",
+    "Days In Stage":1063,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2025-05-30",
+    "From Stage":"2. Qualify Opp",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":1091,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2025-07-04",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2025-08-01",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":28,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2025-08-29",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":56,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2025-10-03",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2025-10-31",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":119,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2025-11-28",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":147,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2026-01-05",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":185,
+    "Stage Velocity":1.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2026-01-30",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":210,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2026-02-27",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":238,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":253631,
+    "Snapshot Date":"2026-04-10",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"3. Develop Proposal",
+    "Days In Stage":280,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":259542,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":259542,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":259542,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":259542,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":259542,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":259542,
+    "Snapshot Date":"2022-11-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":154,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":259542,
+    "Snapshot Date":"2022-12-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":182,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":259542,
+    "Snapshot Date":"2023-01-07",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":217,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":259542,
+    "Snapshot Date":"2023-02-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":245,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":259542,
+    "Snapshot Date":"2023-03-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":273,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":259542,
+    "Snapshot Date":"2023-04-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":308,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":259542,
+    "Snapshot Date":"2023-05-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":336,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":259542,
+    "Snapshot Date":"2023-06-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":364,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":259542,
+    "Snapshot Date":"2023-07-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":399,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":259542,
+    "Snapshot Date":"2023-08-05",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":427,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":259542,
+    "Snapshot Date":"2023-09-02",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"7. Abandoned",
+    "Days In Stage":455,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":273506,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"3. Develop Proposal",
+    "To Stage":"4. Issue Proposal",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":273506,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"4. Issue Proposal",
+    "To Stage":"5. Won",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":273654,
+    "Snapshot Date":"2022-06-04",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":0,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":273654,
+    "Snapshot Date":"2022-07-09",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":35,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":273654,
+    "Snapshot Date":"2022-08-06",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":63,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":273654,
+    "Snapshot Date":"2022-09-03",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":91,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  },
+  {
+    "Opportunity":273654,
+    "Snapshot Date":"2022-10-08",
+    "From Stage":"1. Identify Opp",
+    "To Stage":"1. Identify Opp",
+    "Days In Stage":126,
+    "Stage Velocity":0.0,
+    "Slipped":0
+  }
+]

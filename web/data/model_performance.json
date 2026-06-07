@@ -1,0 +1,4002 @@
+[
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0621000007,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0688000023,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.4788999856,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.4954000115,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5049999952,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2338999957,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0401000008,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0447000004,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0403000005,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0403000005,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0258000009,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0285999998,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0258000009,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.244599998,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2596000135,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2395000011,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2395000011,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0993999988,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1033999994,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1071000025,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1071000025,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0417000018,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0230999999,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0259000007,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2151000053,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2212000042,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2104000002,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2247000039,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Lost",
+    "Win Probability":0.1915999949,
+    "Confidence Score":"Low",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1515000015,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Lost",
+    "Win Probability":0.1351999938,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1240999997,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2653999925,
+    "Confidence Score":"Low",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2159000039,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2099000067,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.212500006,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0151000004,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0152000003,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Lost",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.7741000056,
+    "Confidence Score":"High",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Lost",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.8223000169,
+    "Confidence Score":"High",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0423000008,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0392999984,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0379000008,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0401000008,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2035000026,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2169000059,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3752000034,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2225999981,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0738999993,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.077200003,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.061999999,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0772999972,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0555999987,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1580999941,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Lost",
+    "Win Probability":0.1571999937,
+    "Confidence Score":"Low",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.4683000147,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.4192000031,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.4390999973,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0177999996,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0198999997,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0177999996,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0177999996,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0329000019,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0342999995,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0329000019,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0447999984,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1208999977,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1224000007,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1580999941,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Lost",
+    "Win Probability":0.1571999937,
+    "Confidence Score":"Low",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1561000049,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0099999998,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0115,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0098000001,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0309999995,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0362000018,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0309999995,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0309999995,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0309999995,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0980999991,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1176000014,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1086999997,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0922999978,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0843999982,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0175999999,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0196000002,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0209999997,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0209999997,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0209999997,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5938000083,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5752000213,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5292000175,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5658000112,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.4095999897,
+    "Confidence Score":"Low",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.4165000021,
+    "Confidence Score":"Low",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2196999937,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2879999876,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2960000038,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2143999934,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2143999934,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0337000005,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0390999988,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0379000008,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0366000012,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Lost",
+    "Win Probability":0.0306000002,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3046000004,
+    "Confidence Score":"Low",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3098999858,
+    "Confidence Score":"Low",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2282000035,
+    "Confidence Score":"Low",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2282000035,
+    "Confidence Score":"Low",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2282000035,
+    "Confidence Score":"Low",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2169000059,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0476000011,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0491000004,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0242999997,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0252999999,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0560000017,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0612999983,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0599000007,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0584999993,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0223999992,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0239000004,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0223999992,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0223999992,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0223999992,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0926000029,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0125000002,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0131000001,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0125000002,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0125000002,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2094999999,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1976999938,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2091999948,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1253000051,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1299999952,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0881000012,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0200999994,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0193000007,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0185000002,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0185000002,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0186999999,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-05-08",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0166999996,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0973000005,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1058000028,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0973000005,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0973000005,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0973000005,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1004000008,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.4571999907,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.4645999968,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.4492999911,
+    "Confidence Score":"Low",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.4180999994,
+    "Confidence Score":"Low",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1764999926,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1819999963,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1764999926,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1704999954,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0623999983,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0648000017,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.061999999,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0595000014,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1351000071,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1435000002,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1125999987,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1221000031,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1125999987,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1071000025,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1050999984,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-05-08",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0763999969,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0956000015,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0147000002,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3731999993,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3930000067,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3731999993,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3756000102,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3720999956,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5633999705,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0232999995,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0242999997,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0273000002,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0445999987,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1359000057,
+    "Confidence Score":"High",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1410000026,
+    "Confidence Score":"High",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1897000074,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1888000071,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2383999974,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.4165000021,
+    "Confidence Score":"Low",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.4338999987,
+    "Confidence Score":"Low",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.4580000043,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.4878999889,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3339999914,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1036000028,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0771000013,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0732999966,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2552999854,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-05-08",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2291000038,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2240999937,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2696999907,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Lost",
+    "Win Probability":0.165199995,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Lost",
+    "Win Probability":0.2474000007,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0463999994,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0507999994,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0203000009,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0311999992,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0299999993,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0461000018,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0579999983,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0531000011,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0531000011,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0531000011,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-05-08",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0531000011,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0500999987,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0548,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0241,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5213000178,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5364000201,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.6133999825,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.6133999825,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0071,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0074999998,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0066999998,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0066999998,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0071,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Lost",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.540899992,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Lost",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.6269999743,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3167999983,
+    "Confidence Score":"Low",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3495999873,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1538999975,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1534000039,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1538999975,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1596000046,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1596000046,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1299999952,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.139200002,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0118000004,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0131000001,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0342999995,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0317000002,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0285,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0285,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0295000002,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0621000007,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.068400003,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0159000009,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0165999997,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0702999979,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.076700002,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0364999995,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0281000007,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0194000006,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Lost",
+    "Win Probability":0.0206000004,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Lost",
+    "Win Probability":0.0219999999,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Lost",
+    "Win Probability":0.0219999999,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3743999898,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0122999996,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0126,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0626000017,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.065200001,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0626000017,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.050999999,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0969000012,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1116999984,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1075000018,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0751999989,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0861999989,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-05-08",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0584999993,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0526000001,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0581,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0186000001,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0194000006,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0186000001,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0317000002,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0328000002,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0317000002,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.568599999,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5903999805,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5960999727,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.7049999833,
+    "Confidence Score":"High",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.6991999745,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.7103000283,
+    "Confidence Score":"High",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.7064999938,
+    "Confidence Score":"High",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Lost",
+    "Win Probability":0.235799998,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1932999939,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2567000091,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5281999707,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.4902999997,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0315999985,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0346000008,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0315999985,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0315999985,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0315999985,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-05-08",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0315999985,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0790000036,
+    "Confidence Score":"High",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0993999988,
+    "Confidence Score":"High",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0940999985,
+    "Confidence Score":"High",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.115199998,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0346000008,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0359999985,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1938000023,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1932000071,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1938000023,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1938000023,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1938000023,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-05-08",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1938000023,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.3682999909,
+    "Confidence Score":"Low",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0126999998,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0135000004,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0571000017,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0623999983,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0571000017,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0548,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0599999987,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Lost",
+    "Win Probability":0.0041999999,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Lost",
+    "Win Probability":0.0043000001,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Lost",
+    "Win Probability":0.0046000001,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Lost",
+    "Win Probability":0.0046000001,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0044,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0125000002,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0138999997,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1879000068,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2224999964,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0226000007,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0252999999,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0178999994,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0186000001,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0542000011,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0590000004,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.229399994,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2442999929,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1532000005,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1477999985,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1532000005,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1075000018,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1181999967,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1086999997,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1322000027,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0929000005,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0684999973,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0658000037,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0658000037,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.065700002,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0175999999,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0217000004,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3089999855,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3535000086,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2224999964,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0296,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0238000005,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0228000004,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0260000005,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0260000005,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-05-08",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0610000007,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.058699999,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0864999965,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0839999989,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0882000029,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0829000026,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1465999931,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1835999936,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2687000036,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2657999992,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2470999956,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2008000016,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1515000015,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-05-08",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.071800001,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0187999997,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0135000004,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0138999997,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0201999992,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0142999999,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0138999997,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0201999992,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0135000004,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0138999997,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.4266000092,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3075999916,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3497000039,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.4122999907,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2944999933,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3359000087,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2066999972,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1763000041,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2876999974,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2811999917,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2389000058,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1572999954,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1036999971,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1036999971,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1036999971,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0905999988,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0546999983,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0419000015,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0419000015,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0421999991,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-05-08",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0419000015,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1724999994,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1507000029,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0908999965,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1844999939,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2225999981,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1844999939,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2225999981,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2269999981,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.4171999991,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.4984000027,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0675999969,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1155999973,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2372999936,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2545000017,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0640999973,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0430000015,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0694999993,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1149000004,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1976999938,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3244000077,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.295599997,
+    "Confidence Score":"Low",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0895999968,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1369999945,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1528999954,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1967999935,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1967999935,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0335999988,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0255999994,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0147000002,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3027000129,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.4314999878,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3355000019,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3734000027,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5121999979,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.6387000084,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5494999886,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5882999897,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0962999985,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0692000017,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0368999988,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0276999995,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0276999995,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2865000069,
+    "Confidence Score":"Low",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5522999763,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.4812000096,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Lost",
+    "Win Probability":0.1440999955,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2150000036,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1640000045,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Lost",
+    "Win Probability":0.328399986,
+    "Confidence Score":"Low",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1041999981,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.126699999,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3186999857,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2728999853,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1738999933,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1623000056,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1415999979,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1403000057,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0965000018,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0762000009,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0692000017,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-05-08",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0719999969,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.7874000072,
+    "Confidence Score":"High",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.7900000215,
+    "Confidence Score":"High",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.77700001,
+    "Confidence Score":"High",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.6818000078,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.8327000141,
+    "Confidence Score":"High",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.226699993,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2757999897,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2278999984,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1509000063,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3458000124,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2759999931,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3100000024,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2773000002,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1879000068,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3461999893,
+    "Confidence Score":"Medium",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.6775000095,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.6801999807,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.6668000221,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5909000039,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.6909999847,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0938000008,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0838000029,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0676999986,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.4420999885,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3941000104,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1292999983,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1582999974,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1299999952,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1877000034,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-04-10",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.142900005,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-05-08",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1657000035,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.2799000144,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3341999948,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.4160000086,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.3043000102,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0914999992,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.0864000022,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.071800001,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1748999953,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1693000048,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.128700003,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-02-27",
+    "Actual Outcome":"Won",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1115999967,
+    "Confidence Score":"High",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5351999998,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-05",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5392000079,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2026-01-30",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Won",
+    "Win Probability":0.5196999907,
+    "Confidence Score":"Medium",
+    "Prediction Correct":false
+  },
+  {
+    "Prediction Date":"2025-11-28",
+    "Actual Outcome":"Abandoned",
+    "Predicted Outcome":"Abandoned",
+    "Win Probability":0.1237000003,
+    "Confidence Score":"High",
+    "Prediction Correct":true
+  }
+]

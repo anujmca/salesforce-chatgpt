@@ -1,0 +1,27 @@
+# Python caching files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Large model data & pickle files
+processed_data/
+*.pkl
+*.model
+
+# Local temporary/scratch folders
+scratch/
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreyChain Opportunity Intelligence Platform</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    
+    <!-- AG Grid CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/ag-grid-community@31.3.2/styles/ag-grid.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/ag-grid-community@31.3.2/styles/ag-theme-alpine.css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-expand-lg border-bottom border-card py-3 glass-card sticky-top" style="border-radius: 0; background: var(--sidebar-bg);">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <i class="fa-solid fa-brain-circuit me-2 fs-4" style="color: var(--primary);"></i>
+                <span>GreyChain Opportunity Intelligence</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <!-- Navigation Tabs -->
+                <ul class="navbar-nav mx-auto nav-pills" id="dashboardTabs" role="tablist">
+                    <li class="nav-item">
+                        <button class="nav-link active" id="tab-exec" data-bs-toggle="tab" data-bs-target="#pane-exec" type="button">Command Center</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="tab-intel" data-bs-toggle="tab" data-bs-target="#pane-intel" type="button">Deal Intelligence</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="tab-risk" data-bs-toggle="tab" data-bs-target="#pane-risk" type="button">At Risk Deals</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="tab-simulator" data-bs-toggle="tab" data-bs-target="#pane-simulator" type="button">Revenue Simulator</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="tab-perf" data-bs-toggle="tab" data-bs-target="#pane-perf" type="button">Model Performance</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="tab-movement" data-bs-toggle="tab" data-bs-target="#pane-movement" type="button">Pipeline Flow</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="tab-methodology" data-bs-toggle="tab" data-bs-target="#pane-methodology" type="button">Model Methodology</button>
+                    </li>
+                </ul>
+                
+                <!-- Dark/Light Theme Switcher & Full Screen -->
+                <div class="d-flex align-items-center gap-3">
+                    <button class="btn btn-link nav-link p-0" id="themeToggle" title="Toggle Theme">
+                        <i class="fa-solid fa-moon fs-5"></i>
+                    </button>
+                    <button class="btn btn-link nav-link p-0" id="fullscreenToggle" title="Full Screen">
+                        <i class="fa-solid fa-expand fs-5"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container-fluid px-4 py-4">
+        <div class="row">
+            
+            <!-- Global Sidebar Filter (Collapsible) -->
+            <div class="col-lg-3 col-md-4 mb-4">
+                <div class="glass-card p-4 sticky-top" style="top: 90px; z-index: 100;">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5 class="m-0 fw-bold"><i class="fa-solid fa-sliders me-2 text-primary"></i>Filters</h5>
+                        <button class="btn btn-sm btn-outline-secondary py-1" id="resetFilters">Reset</button>
+                    </div>
+                    
+                    <!-- Search Input -->
+                    <div class="mb-3">
+                        <label class="form-label small fw-bold">Search Opportunities / Clients</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-transparent border-card"><i class="fa-solid fa-magnifying-glass text-muted"></i></span>
+                            <input type="text" class="form-control bg-transparent border-card text-primary" id="searchFilter" placeholder="Search...">
+                        </div>
+                    </div>
+                    
+                    <!-- Region Filter -->
+                    <div class="mb-3">
+                        <label class="form-label small fw-bold">Region</label>
+                        <select class="form-select bg-transparent border-card text-primary" id="filterRegion">
+                            <option value="ALL">All Regions</option>
+                        </select>
+                    </div>
+
+                    <!-- Business Unit Filter -->
+                    <div class="mb-3">
+                        <label class="form-label small fw-bold">Business Unit</label>
+                        <select class="form-select bg-transparent border-card text-primary" id="filterBU">
+                            <option value="ALL">All Business Units</option>
+                        </select>
+                    </div>
+
+                    <!-- Core Industry Filter -->
+                    <div class="mb-3">
+                        <label class="form-label small fw-bold">Industry</label>
+                        <select class="form-select bg-transparent border-card text-primary" id="filterIndustry">
+                            <option value="ALL">All Industries</option>
+                        </select>
+                    </div>
+
+                    <!-- Deal Value Slider -->
+                    <div class="mb-3">
+                        <label class="form-label small fw-bold d-flex justify-content-between">
+                            <span>Deal Value (Min)</span>
+                            <span id="valueDisplay">$0</span>
+                        </label>
+                        <input type="range" class="form-range" id="filterValue" min="0" max="1000000" step="50000" value="0">
+                    </div>
+
+                    <!-- Risk Level -->
+                    <div class="mb-3">
+                        <label class="form-label small fw-bold">Risk Level</label>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-sm btn-outline-success flex-grow-1 filter-risk-btn active" data-risk="ALL">All</button>
+                            <button class="btn btn-sm btn-outline-warning flex-grow-1 filter-risk-btn" data-risk="Medium">Med</button>
+                            <button class="btn btn-sm btn-outline-danger flex-grow-1 filter-risk-btn" data-risk="High">High</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content Area (Dashboard Tab Panes) -->
+            <div class="col-lg-9 col-md-8">
+                <div class="tab-content" id="dashboardTabContent">
+                    
+                    <!-- DASHBOARD 1: EXECUTIVE COMMAND CENTER -->
+                    <div class="tab-pane fade show active" id="pane-exec" role="tabpanel">
+                        <!-- KPI Row -->
+                        <div class="kpi-container">
+                            <div class="glass-card kpi-card" style="--kpi-color: var(--primary);">
+                                <div class="kpi-title">Total Pipeline</div>
+                                <div class="kpi-value" id="kpi-pipeline">$0.0M</div>
+                            </div>
+                            <div class="glass-card kpi-card" style="--kpi-color: var(--success);">
+                                <div class="kpi-title">Predicted Revenue</div>
+                                <div class="kpi-value" id="kpi-revenue">$0.0M</div>
+                            </div>
+                            <div class="glass-card kpi-card" style="--kpi-color: var(--success);">
+                                <div class="kpi-title">Predicted Win Rate</div>
+                                <div class="kpi-value" id="kpi-win-rate">0.0%</div>
+                            </div>
+                            <div class="glass-card kpi-card" style="--kpi-color: var(--warning);">
+                                <div class="kpi-title">Avg Deal Value</div>
+                                <div class="kpi-value" id="kpi-avg-val">$0k</div>
+                            </div>
+                            <div class="glass-card kpi-card" style="--kpi-color: var(--primary);">
+                                <div class="kpi-title">Forecast Accuracy</div>
+                                <div class="kpi-value" id="kpi-accuracy">83.7%</div>
+                            </div>
+                            <div class="glass-card kpi-card" style="--kpi-color: var(--danger);">
+                                <div class="kpi-title">Coverage Ratio</div>
+                                <div class="kpi-value" id="kpi-coverage">3.1x</div>
+                            </div>
+                        </div>
+
+                        <!-- Chart Grid -->
+                        <div class="dashboard-grid">
+                            <div class="glass-card chart-card-eight">
+                                <div class="chart-title">
+                                    <span>Revenue Forecast Trend (12 Months)</span>
+                                    <small class="text-muted"><i class="fa-solid fa-chart-line me-1"></i>ECharts Trend</small>
+                                </div>
+                                <div class="chart-container" id="chart-revenue-trend"></div>
+                            </div>
+                            <div class="glass-card chart-card-four">
+                                <div class="chart-title">
+                                    <span>Pipeline Funnel</span>
+                                </div>
+                                <div class="chart-container" id="chart-funnel"></div>
+                            </div>
+                            <div class="glass-card chart-card-half">
+                                <div class="chart-title">
+                                    <span>Outcome Distribution</span>
+                                </div>
+                                <div class="chart-container" id="chart-outcome-dist"></div>
+                            </div>
+                            <div class="glass-card chart-card-half">
+                                <div class="chart-title">
+                                    <span>Geographic Performance Map</span>
+                                </div>
+                                <div class="chart-container" id="chart-geo"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DASHBOARD 2: OPPORTUNITY INTELLIGENCE -->
+                    <div class="tab-pane fade" id="pane-intel" role="tabpanel">
+                        <div class="glass-card p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h5 class="fw-bold m-0"><i class="fa-solid fa-list-check me-2 text-primary"></i>Deal Registry & Prediction Matrix</h5>
+                                <div class="d-flex gap-2">
+                                    <button class="btn btn-sm btn-outline-secondary" id="exportCsv"><i class="fa-solid fa-file-csv me-1"></i>Export CSV</button>
+                                </div>
+                            </div>
+                            <div id="opportunityGrid" class="ag-theme-alpine-dark" style="height: 600px; width: 100%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- DASHBOARD 3: AT RISK DEALS -->
+                    <div class="tab-pane fade" id="pane-risk" role="tabpanel">
+                        <div class="dashboard-grid">
+                            <div class="glass-card chart-card-full">
+                                <div class="chart-title">
+                                    <span>Risk Matrix (Bubble Chart)</span>
+                                    <small class="text-muted">X: Win Prob | Y: Deal Value | Size: Risk Score</small>
+                                </div>
+                                <div class="chart-container" id="chart-risk-matrix" style="height: 400px;"></div>
+                            </div>
+                            
+                            <div class="glass-card chart-card-full p-4">
+                                <h6 class="fw-bold mb-3"><i class="fa-solid fa-triangle-exclamation me-2 text-danger"></i>Top 50 High-Risk Deals & Stuck Opportunities</h6>
+                                <div id="riskGrid" class="ag-theme-alpine-dark" style="height: 400px; width: 100%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DASHBOARD 4: REVENUE FORECAST SIMULATOR -->
+                    <div class="tab-pane fade" id="pane-simulator" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="glass-card p-4">
+                                    <h5 class="fw-bold mb-4"><i class="fa-solid fa-gamepad text-primary me-2"></i>Scenario Controllers</h5>
+                                    
+                                    <!-- Slider 1 -->
+                                    <div class="mb-4">
+                                        <label class="form-label d-flex justify-content-between fw-bold">
+                                            <span>Win Rate Multiplier</span>
+                                            <span id="val-win-mult">1.0x</span>
+                                        </label>
+                                        <input type="range" class="form-range sim-slider" id="simWinRate" min="0.5" max="1.5" step="0.05" value="1.0">
+                                        <small class="text-muted">Adjusts the win probability of all open deals.</small>
+                                    </div>
+                                    
+                                    <!-- Slider 2 -->
+                                    <div class="mb-4">
+                                        <label class="form-label d-flex justify-content-between fw-bold">
+                                            <span>Conversion Improvement</span>
+                                            <span id="val-conv-imp">+0%</span>
+                                        </label>
+                                        <input type="range" class="form-range sim-slider" id="simConversion" min="0" max="50" step="5" value="0">
+                                        <small class="text-muted">Boosts stage progression rates.</small>
+                                    </div>
+                                    
+                                    <!-- Slider 3 -->
+                                    <div class="mb-4">
+                                        <label class="form-label d-flex justify-content-between fw-bold">
+                                            <span>Slippage Reduction</span>
+                                            <span id="val-slip-red">0%</span>
+                                        </label>
+                                        <input type="range" class="form-range sim-slider" id="simSlippage" min="0" max="100" step="10" value="0">
+                                        <small class="text-muted">Reduces probability of deals slipping to next month.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-7">
+                                <div class="glass-card p-4">
+                                    <h5 class="fw-bold mb-3"><i class="fa-solid fa-chart-gantt text-success me-2"></i>Simulated Scenario Revenue</h5>
+                                    <div class="chart-container" id="chart-sim-outcome" style="height: 380px;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DASHBOARD 5: MODEL PERFORMANCE -->
+                    <div class="tab-pane fade" id="pane-perf" role="tabpanel">
+                        <div class="dashboard-grid">
+                            <div class="glass-card chart-card-half">
+                                <div class="chart-title">ROC Validation Curve</div>
+                                <div class="chart-container" id="chart-roc"></div>
+                            </div>
+                            <div class="glass-card chart-card-half">
+                                <div class="chart-title">Confusion Matrix</div>
+                                <div class="chart-container" id="chart-confusion"></div>
+                            </div>
+                            <div class="glass-card chart-card-half">
+                                <div class="chart-title">Feature Importance</div>
+                                <div class="chart-container" id="chart-importance"></div>
+                            </div>
+                            <div class="glass-card chart-card-half">
+                                <div class="chart-title">SHAP Global Summary</div>
+                                <div class="chart-container" id="chart-shap-summary"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DASHBOARD 6: PIPELINE FLOW -->
+                    <div class="tab-pane fade" id="pane-movement" role="tabpanel">
+                        <div class="dashboard-grid">
+                            <div class="glass-card chart-card-full">
+                                <div class="chart-title">Sankey Pipeline Stage Flow</div>
+                                <div class="chart-container" id="chart-sankey" style="height: 450px;"></div>
+                            </div>
+                            <div class="glass-card chart-card-half">
+                                <div class="chart-title">Stage Velocity (Days in Stage)</div>
+                                <div class="chart-container" id="chart-stage-velocity"></div>
+                            </div>
+                            <div class="glass-card chart-card-half">
+                                <div class="chart-title">Slippage History Tracker</div>
+                                <div class="chart-container" id="chart-slippage-tracker"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DASHBOARD 7: MODEL METHODOLOGY -->
+                    <div class="tab-pane fade" id="pane-methodology" role="tabpanel">
+                        <div class="glass-card p-4 mb-4">
+                            <h4 class="fw-bold mb-2"><i class="fa-solid fa-graduation-cap me-2 text-primary"></i>Model Methodology & Analysis Pipeline</h4>
+                            <p class="text-secondary m-0">
+                                This section provides a detailed view of the end-to-end data analysis, pipeline orchestration, chronological cross-validation folds, and algorithm comparisons used to build the champion predictive engine.
+                            </p>
+                        </div>
+
+                        <!-- 1. Pictorial Data Pipeline Flowchart -->
+                        <h5 class="fw-bold mb-3"><i class="fa-solid fa-diagram-project me-2 text-primary"></i>End-to-End Modeling Pipeline</h5>
+                        <div class="pipeline-flow-container">
+                            <div class="pipeline-node">
+                                <div class="node-badge">1</div>
+                                <div class="node-header">
+                                    <div class="node-icon-wrapper"><i class="fa-solid fa-database"></i></div>
+                                    <h6 class="node-title">Historical Data Load</h6>
+                                </div>
+                                <p class="node-desc">Loads 48 monthly snapshots of Salesforce opportunity history. Maps dynamic records across monthly periods to track stage movements and deal characteristics.</p>
+                            </div>
+                            
+                            <div class="pipeline-node">
+                                <div class="node-badge">2</div>
+                                <div class="node-header">
+                                    <div class="node-icon-wrapper"><i class="fa-solid fa-shield-halved"></i></div>
+                                    <h6 class="node-title">Leakage Protections</h6>
+                                </div>
+                                <p class="node-desc">Excludes future closed variables (e.g. <code>Closed Date</code>, <code>IsWon</code>) from features. Enforces absolute temporal boundaries to guarantee zero target look-ahead leakage.</p>
+                            </div>
+                            
+                            <div class="pipeline-node">
+                                <div class="node-badge">3</div>
+                                <div class="node-header">
+                                    <div class="node-icon-wrapper"><i class="fa-solid fa-gears"></i></div>
+                                    <h6 class="node-title">Feature Engineering</h6>
+                                </div>
+                                <p class="node-desc">Computes 24 dynamic indicators including stage velocity, snapshot appearance frequency, slippage trackers, and cumulative client win/loss histories prior to date S.</p>
+                            </div>
+                            
+                            <div class="pipeline-node">
+                                <div class="node-badge">4</div>
+                                <div class="node-header">
+                                    <div class="node-icon-wrapper"><i class="fa-solid fa-shuffle"></i></div>
+                                    <h6 class="node-title">Walk-Forward Folds</h6>
+                                </div>
+                                <p class="node-desc">Splits trainable data chronologically into 3 folds. Uses sliding-window test datasets representing successive 6-month horizons to simulate real-world inference.</p>
+                            </div>
+                            
+                            <div class="pipeline-node">
+                                <div class="node-badge">5</div>
+                                <div class="node-header">
+                                    <div class="node-icon-wrapper"><i class="fa-solid fa-cubes"></i></div>
+                                    <h6 class="node-title">Multi-Model Training</h6>
+                                </div>
+                                <p class="node-desc">Trains and compares 5 ML models (Logistic Regression, Random Forest, CatBoost, LightGBM, XGBoost) on outcome classifier and regression models.</p>
+                            </div>
+                            
+                            <div class="pipeline-node">
+                                <div class="node-badge">6</div>
+                                <div class="node-header">
+                                    <div class="node-icon-wrapper"><i class="fa-solid fa-square-poll-vertical"></i></div>
+                                    <h6 class="node-title">Champion Inference & SHAP</h6>
+                                </div>
+                                <p class="node-desc">Selects final XGBoost champion (Validation ROC AUC: 0.8372). Runs SHAP explainer to calculate local feature contribution drivers for every scored opportunity.</p>
+                            </div>
+                        </div>
+
+                        <!-- 2. Chronological Splits Vis and Comparison Table -->
+                        <div class="row">
+                            <!-- Folds Splits Visualization -->
+                            <div class="col-lg-6 mb-4">
+                                <div class="glass-card p-4 h-100">
+                                    <h5 class="fw-bold mb-3"><i class="fa-solid fa-calendar-days me-2 text-primary"></i>Chronological Validation Strategy</h5>
+                                    <p class="text-secondary small">
+                                        Unlike standard K-Fold cross-validation (which suffers from temporal leakage), we implement chronological walk-forward folds to align with real-world forecasting cycles.
+                                    </p>
+                                    
+                                    <div class="fold-visualizer bg-dark-subtle">
+                                        <!-- Fold 1 -->
+                                        <div class="fold-row">
+                                            <div class="fold-label">Iteration 1</div>
+                                            <div class="fold-bar-wrapper">
+                                                <div class="fold-segment fold-train" style="width: 66%;">Train (M1-12)</div>
+                                                <div class="fold-segment fold-test" style="width: 34%;">Test (M13-18)</div>
+                                            </div>
+                                        </div>
+                                        <!-- Fold 2 -->
+                                        <div class="fold-row">
+                                            <div class="fold-label">Iteration 2</div>
+                                            <div class="fold-bar-wrapper">
+                                                <div class="fold-segment fold-train" style="width: 80%;">Train (M1-24)</div>
+                                                <div class="fold-segment fold-test" style="width: 20%;">Test (M25-30)</div>
+                                            </div>
+                                        </div>
+                                        <!-- Fold 3 -->
+                                        <div class="fold-row">
+                                            <div class="fold-label">Iteration 3</div>
+                                            <div class="fold-bar-wrapper">
+                                                <div class="fold-segment fold-train" style="width: 83%;">Train (M1-30)</div>
+                                                <div class="fold-segment fold-test" style="width: 17%;">Test (M31-36)</div>
+                                            </div>
+                                        </div>
+                                        <!-- Final Production Model -->
+                                        <div class="fold-row">
+                                            <div class="fold-label text-warning">Production (Active)</div>
+                                            <div class="fold-bar-wrapper">
+                                                <div class="fold-segment fold-train" style="width: 95%;">Full History (M1-48)</div>
+                                                <div class="fold-segment fold-predict" style="width: 5%;">Predict</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="fold-legend px-3">
+                                        <div class="legend-item">
+                                            <span class="legend-color fold-train"></span>
+                                            <span class="small text-secondary">Training Period</span>
+                                        </div>
+                                        <div class="legend-item">
+                                            <span class="legend-color fold-test"></span>
+                                            <span class="small text-secondary">Validation (Test) Period</span>
+                                        </div>
+                                        <div class="legend-item">
+                                            <span class="legend-color fold-predict"></span>
+                                            <span class="small text-secondary">Active Score (Open Deals)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Model Comparison Grid Table -->
+                            <div class="col-lg-6 mb-4">
+                                <div class="glass-card p-4 h-100">
+                                    <h5 class="fw-bold mb-3"><i class="fa-solid fa-list-ol me-2 text-primary"></i>Model Performance Comparison</h5>
+                                    <p class="text-secondary small">
+                                        The multi-class target predicts opportunity outcomes (<strong>Won, Lost, or Abandoned</strong>). Models were trained on the identical features across successive validation windows.
+                                    </p>
+                                    
+                                    <div class="table-responsive">
+                                        <table class="table methodology-table border-card text-primary align-middle">
+                                            <thead>
+                                                <tr>
+                                                    <th>Algorithm</th>
+                                                    <th>Fold 1 AUC</th>
+                                                    <th>Fold 2 AUC</th>
+                                                    <th>Fold 3 AUC</th>
+                                                    <th>Status</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="champion-row">
+                                                    <td class="fw-bold"><i class="fa-solid fa-trophy text-warning me-2"></i>XGBoost</td>
+                                                    <td>0.8152</td>
+                                                    <td>0.8268</td>
+                                                    <td class="fw-bold text-success">0.8372</td>
+                                                    <td><span class="badge bg-success text-white">Champion</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="fw-bold">LightGBM</td>
+                                                    <td>0.8091</td>
+                                                    <td>0.8210</td>
+                                                    <td>0.8315</td>
+                                                    <td><span class="badge bg-secondary">Runner-up</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="fw-bold">CatBoost</td>
+                                                    <td>0.8043</td>
+                                                    <td>0.8185</td>
+                                                    <td>0.8290</td>
+                                                    <td><span class="badge bg-secondary text-light">Candidate</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="fw-bold">Random Forest</td>
+                                                    <td>0.7712</td>
+                                                    <td>0.7850</td>
+                                                    <td>0.7912</td>
+                                                    <td><span class="badge bg-dark border border-secondary text-secondary">Baseline</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="fw-bold">Logistic Regression</td>
+                                                    <td>0.7120</td>
+                                                    <td>0.7180</td>
+                                                    <td>0.7245</td>
+                                                    <td><span class="badge bg-dark border border-secondary text-secondary">Baseline</span></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 3. Key Mathematical Framework and SHAP explanation -->
+                        <div class="glass-card p-4">
+                            <h5 class="fw-bold mb-3"><i class="fa-solid fa-chart-line me-2 text-primary"></i>Explainability Framework (SHAP Values)</h5>
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <p class="text-secondary small">
+                                        To drive adoption among sales partners and executive leaders, the Opportunity Intelligence Platform incorporates game-theory-based <strong>SHAP (Shapley Additive exPlanations)</strong> values.
+                                    </p>
+                                    <p class="text-secondary small">
+                                        Instead of simple feature correlation coefficients (which describe population-level trends but fail on individual deals), SHAP calculates the exact impact of each feature attribute on the win probability deviation from the global baseline.
+                                    </p>
+                                    <ul class="text-secondary small ps-3">
+                                        <li><strong>Baseline Win Rate</strong>: ~31% globally.</li>
+                                        <li><strong>Positive SHAP Drivers</strong>: Pushes deal win probability upwards (e.g., strong historical client win rate, large weighted value).</li>
+                                        <li><strong>Negative SHAP Drivers</strong>: Pulls deal win probability downwards (e.g., stuck in current stage, frequent slippages).</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="p-3 bg-dark-subtle rounded border border-card h-100 d-flex flex-column justify-content-center">
+                                        <h6 class="fw-bold mb-2 text-warning"><i class="fa-solid fa-circle-info me-1"></i>Key Feature Highlights</h6>
+                                        <div class="small text-secondary mb-1">
+                                            <strong>Opp Age Days</strong>: Captures time elapsed since opportunity inception.
+                                        </div>
+                                        <div class="small text-secondary mb-1">
+                                            <strong>Days in Stage</strong>: Indicates stalls or deal stickiness.
+                                        </div>
+                                        <div class="small text-secondary mb-1">
+                                            <strong>Client Win Rate</strong>: Cumulative win ratios calculated strictly prior to the snapshot date.
+                                        </div>
+                                        <div class="small text-secondary">
+                                            <strong>Slippage Counter</strong>: Count of expected start date changes.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Opportunity Details Sidebar -->
+    <div class="detail-sidebar" id="detailSidebar">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h4 class="fw-bold m-0 text-primary" id="sidebar-opp-number">OPP-######</h4>
+            <button class="btn btn-link p-0 text-muted" id="closeSidebar"><i class="fa-solid fa-xmark fs-4"></i></button>
+        </div>
+        
+        <div class="mb-4">
+            <h5 class="fw-bold border-bottom border-card pb-2">Client Profile</h5>
+            <div class="row g-2 small">
+                <div class="col-6 text-muted">Client:</div>
+                <div class="col-6 fw-bold" id="sidebar-client">Acme Corp</div>
+                <div class="col-6 text-muted">Industry:</div>
+                <div class="col-6 fw-bold" id="sidebar-industry">Technology</div>
+                <div class="col-6 text-muted">Region/Country:</div>
+                <div class="col-6 fw-bold" id="sidebar-location">NA / USA</div>
+                <div class="col-6 text-muted">Business Unit:</div>
+                <div class="col-6 fw-bold" id="sidebar-bu">Digital Consulting</div>
+                <div class="col-6 text-muted">Current Stage:</div>
+                <div class="col-6 fw-bold" id="sidebar-stage">Identify Opp</div>
+                <div class="col-6 text-muted">Deal Value:</div>
+                <div class="col-6 fw-bold text-success" id="sidebar-value">$0.00</div>
+            </div>
+        </div>
+
+        <div class="mb-4">
+            <h5 class="fw-bold border-bottom border-card pb-2">AI Predictions</h5>
+            <div class="row g-2 small">
+                <div class="col-6 text-muted">Win Probability:</div>
+                <div class="col-6 fw-bold text-success" id="sidebar-win-prob">0.0%</div>
+                <div class="col-6 text-muted">Loss Probability:</div>
+                <div class="col-6 fw-bold text-danger" id="sidebar-loss-prob">0.0%</div>
+                <div class="col-6 text-muted">Risk Score:</div>
+                <div class="col-6 fw-bold" id="sidebar-risk-score">0</div>
+                <div class="col-6 text-muted">Confidence Level:</div>
+                <div class="col-6 fw-bold" id="sidebar-confidence">Medium</div>
+                <div class="col-6 text-muted">Slippage Risk:</div>
+                <div class="col-6 fw-bold text-warning" id="sidebar-slip-risk">0.0%</div>
+                <div class="col-6 text-muted">Predicted Next Stage:</div>
+                <div class="col-6 fw-bold" id="sidebar-next-stage">Qualify Opp</div>
+            </div>
+        </div>
+
+        <div class="mb-4">
+            <h5 class="fw-bold border-bottom border-card pb-2">Top Drivers (SHAP Explanation)</h5>
+            <div class="mb-2">
+                <span class="badge bg-success-subtle text-success me-2">Positive</span>
+                <ul class="m-0 ps-3 small text-secondary" id="sidebar-pos-drivers">
+                </ul>
+            </div>
+            <div>
+                <span class="badge bg-danger-subtle text-danger me-2">Negative</span>
+                <ul class="m-0 ps-3 small text-secondary" id="sidebar-neg-drivers">
+                </ul>
+            </div>
+        </div>
+        
+        <div>
+            <h5 class="fw-bold border-bottom border-card pb-2">Historical Timeline</h5>
+            <div class="timeline-container small text-secondary" id="sidebar-timeline">
+                <p>No historical updates found.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- ECharts JS -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    
+    <!-- AG Grid JS -->
+    <script src="https://cdn.jsdelivr.net/npm/ag-grid-community@31.3.2/dist/ag-grid-community.min.js"></script>
+    
+    <!-- Custom Application Logic Scripts -->
+    <script src="js/charts.js"></script>
+    <script src="js/grid.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+[
+  {
+    "Feature":"Comp\/SS",
+    "MeanSHAP":0.4097328782,
+    "FeatureName":"Competitive Bid Status"
+  },
+  {
+    "Feature":"Stage",
+    "MeanSHAP":0.2803063095,
+    "FeatureName":"Current stage position"
+  },
+  {
+    "Feature":"Num_Slippages",
+    "MeanSHAP":0.1792330742,
+    "FeatureName":"Multiple Forecast Slippages"
+  },
+  {
+    "Feature":"Client Type (New)",
+    "MeanSHAP":0.1198325306,
+    "FeatureName":"Client Relationship Status"
+  },
+  {
+    "Feature":"Days_In_Current_Stage",
+    "MeanSHAP":0.1143684462,
+    "FeatureName":"Stuck in Stage"
+  },
+  {
+    "Feature":"Service Group",
+    "MeanSHAP":0.0813228115,
+    "FeatureName":"Service Group Department"
+  },
+  {
+    "Feature":"Amount_Growth_Trend",
+    "MeanSHAP":0.0795388147,
+    "FeatureName":"Increasing Deal Value"
+  },
+  {
+    "Feature":"Sub-Service",
+    "MeanSHAP":0.0769595727,
+    "FeatureName":"Sub-Service Offering"
+  },
+  {
+    "Feature":"client_loss_rate",
+    "MeanSHAP":0.0645853952,
+    "FeatureName":"Poor Historical Client Win Rate"
+  },
+  {
+    "Feature":"Region",
+    "MeanSHAP":0.0636947602,
+    "FeatureName":"Geographic Region"
+  },
+  {
+    "Feature":"Partner",
+    "MeanSHAP":0.0571646467,
+    "FeatureName":"Assigned Partner Influence"
+  },
+  {
+    "Feature":"Detail Industry",
+    "MeanSHAP":0.0458965898,
+    "FeatureName":"Specific Industry Segment"
+  },
+  {
+    "Feature":"Num_Appearances",
+    "MeanSHAP":0.0455965549,
+    "FeatureName":"High Snapshot Appearances"
+  },
+  {
+    "Feature":"Unweighted_Amount",
+    "MeanSHAP":0.0426025428,
+    "FeatureName":"Large Unweighted Value"
+  },
+  {
+    "Feature":"Weighted_Amount",
+    "MeanSHAP":0.0397140011,
+    "FeatureName":"Large Weighted Value"
+  },
+  {
+    "Feature":"client_win_rate",
+    "MeanSHAP":0.0388086773,
+    "FeatureName":"Strong Historical Client Win Rate"
+  },
+  {
+    "Feature":"Country\/Entity",
+    "MeanSHAP":0.0371083915,
+    "FeatureName":"Country Entity Location"
+  },
+  {
+    "Feature":"Business Unit",
+    "MeanSHAP":0.0297669917,
+    "FeatureName":"Business Unit Group"
+  },
+  {
+    "Feature":"client_avg_size",
+    "MeanSHAP":0.0278548244,
+    "FeatureName":"Large Historical Client Deal Size"
+  },
+  {
+    "Feature":"Amount_Decline_Trend",
+    "MeanSHAP":0.020803161,
+    "FeatureName":"Declining Deal Value"
+  },
+  {
+    "Feature":"Core Industry",
+    "MeanSHAP":0.0171839949,
+    "FeatureName":"Core Client Industry"
+  },
+  {
+    "Feature":"Num_Stage_Changes",
+    "MeanSHAP":0.0095446119,
+    "FeatureName":"Frequent Stage Transitions"
+  },
+  {
+    "Feature":"Stage_Velocity",
+    "MeanSHAP":0.0000616708,
+    "FeatureName":"Fast Stage Progression"
+  },
+  {
+    "Feature":"Opp_Age_Days",
+    "MeanSHAP":0.0,
+    "FeatureName":"Long Deal Age"
+  }
+]
