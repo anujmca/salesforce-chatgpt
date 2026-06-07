@@ -552,6 +552,12 @@ function setupEventListeners() {
             meaning: 'This section details the SHAP (SHapley Additive exPlanations) framework used to translate complex machine learning calculations into clear human explanations.',
             understand: 'SHAP calculates the contribution of each individual feature to a deal\'s win probability, showing exactly which positive (+) and negative (-) factors drove the prediction away from the baseline average.',
             use: 'Bridges the trust gap for end users. Instead of treating the AI as a black box, sales reps can see the precise mathematical drivers (like client win history or slippage counts) behind every score.'
+        },
+        'exec-command-center': {
+            title: 'Executive Command Center',
+            meaning: 'The Executive Command Center provides a high-level overview of the sales pipeline, using machine learning predictions to estimate future revenue and assess current pipeline coverage.',
+            understand: 'This dashboard integrates six high-level KPI cards and four diagnostic charts:\n• KPI Row: Displays overall pipeline size, predicted close-won revenue, average deal values, coverage ratios, and baseline model accuracy.\n• Chart Grid: Compares revenue forecast scenarios, summarizes pipeline funnel taper, profiles outcome probabilities, and maps geographic performance.',
+            use: 'Use the Filters in the left sidebar (Search, Region, Business Unit, Industry, Value, Risk) to slice the aggregates dynamically. Adjust your forecast view or drill down into other tabs to manage high-risk opportunities.'
         }
     };
 
