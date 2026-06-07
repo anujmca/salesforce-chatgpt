@@ -40,6 +40,11 @@
             background: rgba(var(--success-rgb), 0.05);
             border-color: var(--success);
         }
+        .toggle-switch-card .form-check-input {
+            float: none !important;
+            margin: 4px 0 0 0 !important;
+            cursor: pointer;
+        }
         .metric-gauge {
             font-size: 32px;
             font-weight: 700;
@@ -159,48 +164,64 @@
                     <div class="row g-3">
                         <!-- Toggle Controls -->
                         <div class="col-md-7 d-flex flex-column gap-2">
-                            <div class="form-check form-switch toggle-switch-card" id="card-opt-activity">
-                                <input class="form-check-input opt-toggle" type="checkbox" role="switch" id="opt-activity" data-precision="14.2" data-recall="10.5" data-auc="0.062">
-                                <label class="form-check-label fw-bold text-primary small d-block w-100" for="opt-activity">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <span>Activity & Email Sync (+14.2% Prec)</span>
-                                        <i class="fa-solid fa-circle-question text-muted help-trigger" style="cursor: pointer;" data-help="opt-activity"></i>
-                                    </div>
-                                    <small class="text-secondary d-block fw-normal mt-1">Tracks email/meeting velocity and sponsorships.</small>
-                                </label>
+                            <div class="toggle-switch-card d-flex align-items-start gap-3" id="card-opt-activity">
+                                <div class="form-check form-switch p-0 m-0">
+                                    <input class="form-check-input opt-toggle" type="checkbox" role="switch" id="opt-activity" data-precision="14.2" data-recall="10.5" data-auc="0.062">
+                                </div>
+                                <div class="flex-grow-1">
+                                    <label class="form-check-label fw-bold text-primary small d-block w-100 m-0 p-0" for="opt-activity" style="cursor: pointer;">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <span>Activity & Email Sync (+14.2% Prec)</span>
+                                            <i class="fa-solid fa-circle-question text-muted help-trigger" style="cursor: pointer;" data-help="opt-activity"></i>
+                                        </div>
+                                        <small class="text-secondary d-block fw-normal mt-1">Tracks email/meeting velocity and sponsorships.</small>
+                                    </label>
+                                </div>
                             </div>
 
-                            <div class="form-check form-switch toggle-switch-card" id="card-opt-comp">
-                                <input class="form-check-input opt-toggle" type="checkbox" role="switch" id="opt-comp" data-precision="8.4" data-recall="5.1" data-auc="0.031">
-                                <label class="form-check-label fw-bold text-primary small d-block w-100" for="opt-comp">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <span>Competitor Intelligence (+8.4% Prec)</span>
-                                        <i class="fa-solid fa-circle-question text-muted help-trigger" style="cursor: pointer;" data-help="opt-comp"></i>
-                                    </div>
-                                    <small class="text-secondary d-block fw-normal mt-1">Flags discount depths and rival presence.</small>
-                                </label>
+                            <div class="toggle-switch-card d-flex align-items-start gap-3" id="card-opt-comp">
+                                <div class="form-check form-switch p-0 m-0">
+                                    <input class="form-check-input opt-toggle" type="checkbox" role="switch" id="opt-comp" data-precision="8.4" data-recall="5.1" data-auc="0.031">
+                                </div>
+                                <div class="flex-grow-1">
+                                    <label class="form-check-label fw-bold text-primary small d-block w-100 m-0 p-0" for="opt-comp" style="cursor: pointer;">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <span>Competitor Intelligence (+8.4% Prec)</span>
+                                            <i class="fa-solid fa-circle-question text-muted help-trigger" style="cursor: pointer;" data-help="opt-comp"></i>
+                                        </div>
+                                        <small class="text-secondary d-block fw-normal mt-1">Flags discount depths and rival presence.</small>
+                                    </label>
+                                </div>
                             </div>
 
-                            <div class="form-check form-switch toggle-switch-card" id="card-opt-stage">
-                                <input class="form-check-input opt-toggle" type="checkbox" role="switch" id="opt-stage" data-precision="5.1" data-recall="8.4" data-auc="0.042">
-                                <label class="form-check-label fw-bold text-primary small d-block w-100" for="opt-stage">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <span>Stage-Specific Classifiers (+8.4% Rec)</span>
-                                        <i class="fa-solid fa-circle-question text-muted help-trigger" style="cursor: pointer;" data-help="opt-stage"></i>
-                                    </div>
-                                    <small class="text-secondary d-block fw-normal mt-1">Separate models for early vs. late stages.</small>
-                                </label>
+                            <div class="toggle-switch-card d-flex align-items-start gap-3" id="card-opt-stage">
+                                <div class="form-check form-switch p-0 m-0">
+                                    <input class="form-check-input opt-toggle" type="checkbox" role="switch" id="opt-stage" data-precision="5.1" data-recall="8.4" data-auc="0.042">
+                                </div>
+                                <div class="flex-grow-1">
+                                    <label class="form-check-label fw-bold text-primary small d-block w-100 m-0 p-0" for="opt-stage" style="cursor: pointer;">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <span>Stage-Specific Classifiers (+8.4% Rec)</span>
+                                            <i class="fa-solid fa-circle-question text-muted help-trigger" style="cursor: pointer;" data-help="opt-stage"></i>
+                                        </div>
+                                        <small class="text-secondary d-block fw-normal mt-1">Separate models for early vs. late stages.</small>
+                                    </label>
+                                </div>
                             </div>
 
-                            <div class="form-check form-switch toggle-switch-card" id="card-opt-seq">
-                                <input class="form-check-input opt-toggle" type="checkbox" role="switch" id="opt-seq" data-precision="11.5" data-recall="13.2" data-auc="0.071">
-                                <label class="form-check-label fw-bold text-primary small d-block w-100" for="opt-seq">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <span>Sequential LSTM Models (+13.2% Rec)</span>
-                                        <i class="fa-solid fa-circle-question text-muted help-trigger" style="cursor: pointer;" data-help="opt-seq"></i>
-                                    </div>
-                                    <small class="text-secondary d-block fw-normal mt-1">Analyzes chronological path movements.</small>
-                                </label>
+                            <div class="toggle-switch-card d-flex align-items-start gap-3" id="card-opt-seq">
+                                <div class="form-check form-switch p-0 m-0">
+                                    <input class="form-check-input opt-toggle" type="checkbox" role="switch" id="opt-seq" data-precision="11.5" data-recall="13.2" data-auc="0.071">
+                                </div>
+                                <div class="flex-grow-1">
+                                    <label class="form-check-label fw-bold text-primary small d-block w-100 m-0 p-0" for="opt-seq" style="cursor: pointer;">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <span>Sequential LSTM Models (+13.2% Rec)</span>
+                                            <i class="fa-solid fa-circle-question text-muted help-trigger" style="cursor: pointer;" data-help="opt-seq"></i>
+                                        </div>
+                                        <small class="text-secondary d-block fw-normal mt-1">Analyzes chronological path movements.</small>
+                                    </label>
+                                </div>
                             </div>
                         </div>
 
