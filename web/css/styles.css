@@ -23,7 +23,7 @@
     --border-card: rgba(226, 232, 240, 0.8);
     --text-primary: #0f172a;
     --text-secondary: #475569;
-    --text-muted: #94a3b8;
+    --text-muted: #64748b;
     --card-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.04);
     --glow-glow: rgba(99, 102, 241, 0.08);
     --sidebar-bg: rgba(255, 255, 255, 0.9);
@@ -36,10 +36,35 @@
     --border-card: rgba(255, 255, 255, 0.06);
     --text-primary: #f8fafc;
     --text-secondary: #94a3b8;
-    --text-muted: #64748b;
+    --text-muted: #7c8ba1;
     --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
     --glow-glow: rgba(99, 102, 241, 0.15);
     --sidebar-bg: rgba(13, 18, 30, 0.85);
+}
+
+/* Global Typography & Bootstrap Class Overrides for Theme Contrast */
+.text-secondary {
+    color: var(--text-secondary) !important;
+}
+
+.text-muted {
+    color: var(--text-muted) !important;
+}
+
+select option {
+    background-color: var(--sidebar-bg) !important;
+    color: var(--text-primary) !important;
+}
+
+.table {
+    --bs-table-color: var(--text-primary) !important;
+    --bs-table-bg: transparent !important;
+    --bs-table-border-color: var(--border-card) !important;
+    color: var(--text-primary) !important;
+}
+
+.table th, .table td {
+    color: inherit !important;
 }
 
 /* Reset & Base Styles */
@@ -85,6 +110,11 @@ body {
     border-radius: 8px;
     padding: 8px 16px !important;
     transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+    color: var(--text-primary) !important;
+    background: rgba(var(--primary-rgb), 0.05);
 }
 
 .nav-link.active {
