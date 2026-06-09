@@ -230,6 +230,7 @@ def main():
         raw_test_df['Slippage Probability'] = np.round(probs_slip, 4)
         
         actual_outcome = test_df['Target_Outcome'].values
+        raw_test_df['Actual Outcome'] = actual_outcome
         raw_test_df['Correct'] = np.where(actual_outcome == pred_outcome_label, 'True', 'False')
         
         err_types = []
@@ -313,6 +314,7 @@ def main():
     raw_test_df['Predicted Outcome'] = pred_outcome_label
     raw_test_df['Expected Months to Close'] = np.round(pred_months, 1)
     raw_test_df['Slippage Probability'] = np.round(probs_slip, 4)
+    raw_test_df['Actual Outcome'] = 'Open'
     raw_test_df['Correct'] = 'N/A'
     raw_test_df['Error Type'] = 'N/A'
     
